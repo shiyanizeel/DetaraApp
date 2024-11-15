@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+            android:id="@+id/home"
+            android:icon="@drawable/homebordericon"
+            android:title="Home"/>
+        <item
+            android:id="@+id/gift"
+            android:icon="@drawable/giftbordricon"
+            android:title="Gift"/>
+          <item
+            android:id="@+id/offer"
+            android:icon="@drawable/offerbordericon"
+            android:title="Offer"/>
+        <item
+            android:id="@+id/call"
+            android:icon="@drawable/callbordericon"
+            android:title="Call"/>
+    <item
+            android:id="@+id/appointment"
+            android:icon="@drawable/appointmentbordericon"
+            android:title="Appointment"/>
+
+</menu>

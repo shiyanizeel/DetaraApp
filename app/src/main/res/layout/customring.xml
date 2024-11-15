@@ -1,0 +1,358 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/bestcollection"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/customringbestcollection"
+        android:layout_marginTop="20dp"/>
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/bestcollection"
+        android:scrollbars="none">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:text="Create Your Dream Ring"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:fontFamily="@font/inria_sans"
+                android:textSize="18dp"
+                android:layout_marginTop="20dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:layout_marginHorizontal="20dp"
+                android:text="We know your engagement ring should be as special as your love story. That’s why we
+give you the choice: have our expert jewelers create a custom, unique ring just for you,
+or design it yourself with the beautiful settings available on our site. Your ideal ring is
+only a few steps away."
+                android:textStyle="normal"
+                android:textColor="@color/black"
+                android:fontFamily="@font/inria_sans"
+                android:textSize="10dp"
+                android:layout_marginTop="10dp"/>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:src="@drawable/signaturering"
+                android:layout_gravity="center" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:text="Craft Your Signature Ring"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:fontFamily="@font/inria_sans"
+                android:textSize="18dp"
+                android:layout_marginTop="20dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:layout_marginHorizontal="20dp"
+                android:text="Work hand-in-hand with our skilled designers to create the ring of your dreams.
+Whether you envision a completely original creation or want to
+personalize one of our classic designs, we’ll guide you through every step to
+ensure your ring is as unique as your love."
+                android:textStyle="normal"
+                android:textColor="@color/black"
+                android:fontFamily="@font/inria_sans"
+                android:textSize="10dp"
+                android:layout_marginTop="10dp"/>
+
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:src="@drawable/presision"
+                android:layout_gravity="center" />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:text="Personalize with Precision"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:fontFamily="@font/inria_sans"
+                android:textSize="18dp"
+                android:layout_marginTop="20dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:layout_marginHorizontal="20dp"
+                android:text="Select from our carefully curated collection of ring styles and settings.
+Then, personalize it by choosing your
+favorite metal, diamond, or gemstone to create a piece that perfectly reflects
+your style and story."
+                android:textStyle="normal"
+                android:textColor="@color/black"
+                android:fontFamily="@font/inria_sans"
+                android:textSize="10dp"
+                android:layout_marginTop="10dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:text="Crafting Your Dream Ring"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:fontFamily="@font/inria_sans"
+                android:textSize="18dp"
+                android:layout_marginTop="20dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:layout_marginHorizontal="20dp"
+                android:text="Begin the journey of crafting a piece that perfectly captures your unique style
+and story. Our bespoke jewelry process combines cutting-edge design techniques
+with meticulous craftsmanship. In just four steps, we’ll transform your ideas int
+a stunning reality. Most designs are completed within 4-6 weeks, with custom
+creations starting at $2,500."
+                android:textStyle="normal"
+                android:textColor="@color/black"
+                android:fontFamily="@font/inria_sans"
+                android:textSize="10dp"
+                android:layout_marginTop="10dp"/>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:src="@drawable/consultaion"
+                android:layout_gravity="center" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:text="Step 1: Consultation"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:fontFamily="@font/inria_sans"
+                android:textSize="18dp"
+                android:layout_marginTop="20dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:textSize="10dp"
+                android:layout_gravity="center_horizontal"
+                android:text="Share your vision, preferred metal, gemstone accents, and ring size with us to get
+started. Receive a personalized consultation and a no-obligation quote."
+                android:layout_marginLeft="10dp"
+                android:fontFamily="@font/inria_sans"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="10dp"
+                android:textAlignment="center"/>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:src="@drawable/presision"
+                android:layout_gravity="center" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:text="Step 2: Design"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:fontFamily="@font/inria_sans"
+                android:textSize="18dp"
+                android:layout_marginTop="20dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:textSize="10dp"
+                android:layout_gravity="center_horizontal"
+                android:text="Our design team collaborates with you to turn your vision into reality. By utilizing
+cutting-edge 3D modeling software, we craft detailed renderings that bring your
+jewelry concept to life. This collaborative process ensures every element meets your
+expectations before moving to production."
+                android:layout_marginLeft="10dp"
+                android:fontFamily="@font/inria_sans"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="10dp"
+                android:textAlignment="center"/>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:src="@drawable/pricisioncrafting"
+                android:layout_gravity="center" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:text="Step 3: Precision Crafting"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:fontFamily="@font/inria_sans"
+                android:textSize="18dp"
+                android:layout_marginTop="20dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:textSize="10dp"
+                android:layout_gravity="center_horizontal"
+                android:text="After the computerized model is approved, our expert artisans meticulously
+bring your design to life. Combining advanced technology with traditional
+craftsmanship,we carefully shape and perfect every aspect of your jewelry piece,
+ensuring each detail aligns precisely with the approved design for the highest quality."
+                android:layout_marginLeft="10dp"
+                android:fontFamily="@font/inria_sans"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="10dp"
+                android:textAlignment="center"/>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:src="@drawable/completedwork"
+                android:layout_gravity="center" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:text="Step 4: Completed Work"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:fontFamily="@font/inria_sans"
+                android:textSize="18dp"
+                android:layout_marginTop="20dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:textSize="10dp"
+                android:layout_gravity="center_horizontal"
+                android:text="Your personalized ring is expertly crafted by our artisans, who pay close attention
+to every last aspect of its unique design, all while upholding the most
+ advanced standards of craftsmanship. Once completed, our quality
+assurance team conducts a meticulous inspection before sending it to you."
+                android:layout_marginLeft="10dp"
+                android:fontFamily="@font/inria_sans"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="10dp"
+                android:textAlignment="center"/>
+
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:text="Custom Engagement Rings"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:fontFamily="@font/inria_sans"
+                android:textSize="18dp"
+                android:layout_marginTop="20dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:textSize="10dp"
+                android:layout_gravity="center_horizontal"
+                android:text="Every custom engagement ring tells a unique love story."
+                android:layout_marginLeft="10dp"
+                android:fontFamily="@font/inria_sans"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="10dp"
+                android:textAlignment="center"/>
+
+           <HorizontalScrollView
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:layout_marginTop="20dp"
+               android:scrollbars="none"
+               android:layout_marginHorizontal="20dp">
+               <LinearLayout
+                   android:id="@+id/customringHorizontal"
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"
+                   android:orientation="horizontal">
+                   <ImageView
+                       android:layout_width="wrap_content"
+                       android:layout_height="wrap_content"
+                       android:background="@drawable/customimg1"/>
+                   <ImageView
+                       android:layout_width="wrap_content"
+                       android:layout_height="wrap_content"
+                       android:layout_marginHorizontal="20dp"
+                       android:background="@drawable/customimg2"/>
+                   <ImageView
+                       android:layout_width="wrap_content"
+                       android:layout_height="wrap_content"
+                       android:background="@drawable/customimg3"/>
+                   <ImageView
+                       android:layout_width="wrap_content"
+                       android:layout_height="wrap_content"
+                       android:layout_marginHorizontal="20dp"
+                       android:background="@drawable/customimg4"/>
+                   <ImageView
+                       android:layout_width="wrap_content"
+                       android:layout_height="wrap_content"
+                       android:background="@drawable/customimg5"/>
+                   <ImageView
+                       android:layout_width="wrap_content"
+                       android:layout_height="wrap_content"
+                       android:layout_marginHorizontal="20dp"
+                       android:background="@drawable/customimg6"/>
+                   <ImageView
+                       android:layout_width="wrap_content"
+                       android:layout_height="wrap_content"
+                       android:background="@drawable/customimg7"/>
+               </LinearLayout>
+           </HorizontalScrollView>
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="20dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/customimg8"/>
+        </LinearLayout>
+
+    </androidx.core.widget.NestedScrollView>
+
+</RelativeLayout>

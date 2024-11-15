@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    android:orientation="vertical">
+
+    <!-- Scalable ImageView -->
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:id="@+id/viewpageImg"
+        android:scaleType="centerCrop"
+        android:adjustViewBounds="true"/>
+
+    <!-- Title TextView with scalable size -->
+    <TextView
+        android:id="@+id/viewpageHead"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:fontFamily="@font/inria_sans"
+        android:gravity="center"
+        android:layout_marginTop="-120dp"
+        android:text="Timeless Diamonds \nEternal Luxury"
+        android:textColor="@color/black"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <!-- Subtitle TextView with scalable size and padding -->
+    <TextView
+        android:id="@+id/viewPageSubText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="16dp"
+        android:fontFamily="@font/inria_sans"
+        android:gravity="center"
+        android:text="Experience the Luxury of Shopping. Explore our Handpicked Selection of Exquisite Diamond Jewelry."
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        android:layout_marginHorizontal="20dp"
+        android:textStyle="normal" />
+
+</LinearLayout>

@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "1061013958354",
+    "project_id": "detaragemapp-b84d8",
+    "storage_bucket": "detaragemapp-b84d8.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1061013958354:android:d15ea5ecf070d1995f470b",
+        "android_client_info": {
+          "package_name": "com.skad.myapplication"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC1rL6Ag6yTTibXZrFpeoFJQ3VmDs-VRhg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group>
+    <item
+        android:id="@+id/engagementRingDrawer"
+        android:title="ENGAGEMENT RINGS" />
+
+    <item
+        android:id="@+id/benavisilver"
+        android:title="BENAVI® SILVER" />
+
+    <item
+        android:id="@+id/jwellary"
+        android:title="JEWELERY" />
+    <item
+        android:id="@+id/weddingring"
+        android:title="WEDDING RINGS" />
+    <item
+        android:id="@+id/diamonds"
+        android:title="DIAMONDS" />
+    <item
+        android:id="@+id/gemstone"
+        android:title="GEMSTONES" />
+    <item
+        android:id="@+id/gift"
+        android:title="GIFTS" />
+    <item
+        android:id="@+id/about"
+        android:title="ABOUT" />
+    </group>
+</menu>

@@ -1,0 +1,401 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id="@+id/emelandLinearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/emerlandguide"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Emerald Gemstone Guide"
+            android:layout_marginTop="10dp"
+            android:layout_marginStart="20dp"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:textColor="@color/black"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Explore everything about emerald gemstones—discover \ntheir properties, varieties, symbolism, origins, and how to\n clean and care for them."
+            android:textSize="10dp"
+            android:layout_marginStart="20dp"/>
+
+    </LinearLayout>
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/emelandLinearLayout"
+        android:scrollbars="none">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="What is a Sapphire?"
+                android:layout_gravity="center"
+                android:textSize="20dp"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:fontFamily="@font/inria_sans"
+                android:layout_marginTop="10dp"/>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/emerald"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="What is an Emerald? \n\nEmeralds are the most famous gemstones in the beryl family, which also includes \naquamarine and morganite. For a gemstone to be considered an emerald, it must exhibit \na vibrant green to bluish-green color.\n\n Emerald Meaning \n\nEmeralds symbolize truth, intuition, foresight, loyalty, and love. In ancient Greece and Rome, they were associated with the goddess Venus, who presided over love and hope."
+                android:textSize="10dp"
+                android:textAlignment="center"
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="10dp"
+                android:fontFamily="@font/inria_sans"
+                android:textColor="@color/black"
+                android:layout_marginTop="7dp"/>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/greenemrald"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Emerald Types"
+                android:textSize="10dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="10dp"
+                android:fontFamily="@font/inria_sans"
+                android:textColor="@color/black"
+                android:layout_marginTop="7dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="10dp"
+                android:text="01 Natural Emeralds \nNatural emeralds typically have more inclusions than most gemstones, with these unique internal features, known as “jardin” (French for garden), often being appreciated for their natural beauty.\n\n02 Lab Grown \n\Emeralds Lab-grown emeralds share the same chemical composition as natural emeralds but lack the inclusions typically found in their natural counterparts."
+                android:layout_gravity="center_horizontal"
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="10dp"
+                android:fontFamily="@font/inria_sans"
+                android:textColor="@color/black"
+                android:layout_marginTop="7dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Emerald Properties"
+                android:gravity="center_horizontal"
+                android:textSize="20dp"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:fontFamily="@font/inria_sans"
+                android:layout_marginTop="10dp"/>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/blueemrald"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="01"
+                    android:textSize="26dp"
+                    android:layout_marginStart="40dp"
+                    android:textColor="@color/black"
+                    android:textStyle="bold"
+                    android:layout_marginTop="10dp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Mohs Hardness \n7.5 to 8"
+                    android:layout_marginStart="5dp"
+                    android:textSize="10dp"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="02"
+                    android:textSize="26dp"
+                    android:layout_marginStart="40dp"
+                    android:textColor="@color/black"
+                    android:textStyle="bold"
+                    android:layout_marginTop="10dp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Mineral\n Beryl is a mineral composed of beryllium and aluminum silicate."
+                    android:layout_marginStart="5dp"
+                    android:textSize="10dp"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="03"
+                    android:textSize="26dp"
+                    android:layout_marginStart="40dp"
+                    android:textColor="@color/black"
+                    android:textStyle="bold"
+                    android:layout_marginTop="10dp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Color \nEmeralds fall within the blue-green range of beryl, featuring a medium to \ndeep color intensity. Green beryl, on the other hand, has a paler hue."
+                    android:layout_marginStart="5dp"
+                    android:textSize="10dp"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="04"
+                    android:textSize="26dp"
+                    android:layout_marginStart="40dp"
+                    android:textColor="@color/black"
+                    android:textStyle="bold"
+                    android:layout_marginTop="10dp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Refractive Index \n1.577 to 1.583"
+                    android:layout_marginStart="5dp"
+                    android:textSize="10dp"/>
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="How to Choose an Emerald"
+                android:layout_gravity="center"
+                android:textSize="20dp"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:fontFamily="@font/inria_sans"
+                android:layout_marginTop="10dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="10dp"
+                android:text="When selecting an emerald, consider the color, saturation, and clarity, and explore \nthe significance of its sourcing."
+                android:layout_marginRight="10dp"
+                android:textAlignment="center"
+                android:layout_marginLeft="10dp"
+                android:fontFamily="@font/inria_sans"
+                android:textColor="@color/black"
+                android:layout_marginTop="7dp"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/group1"
+                    android:layout_marginStart="20dp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Shape\nShape refers to the external geometric form of a\ngemstone. Sapphires can be crafted into a wide variety\nof shapes, ranging from classic options like round or\nprincess cuts to more unique forms like trillion, kite,beyond."
+                    android:textAlignment="textStart"
+                    android:layout_marginStart="5dp"
+                    android:textSize="8dp"
+                    android:textStyle="bold"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/group2"
+                    android:layout_marginStart="20dp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Cut\nSapphires are frequently measured in millimeters \n instead of carats because of differences in\ngemstone density. This method offers a more \n precise size reference."
+                    android:textAlignment="textStart"
+                    android:layout_marginStart="5dp"
+                    android:textSize="8dp"
+                    android:textStyle="bold"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/group3"
+                    android:layout_marginStart="20dp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Clarity\nNatural sapphires usually contain inclusions and\n possess unique characteristics. In contrast, lab-grown \nsapphires are typically free of inclusions, offering a \n more uniform and consistent appearance."
+                    android:textAlignment="textStart"
+                    android:layout_marginStart="5dp"
+                    android:textSize="8dp"
+                    android:textStyle="bold"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/group4"
+                    android:layout_marginStart="20dp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Carat Weight and Size\nSapphires are commonly measured in millimeters\n rather than carats because of variations in \ngemstone density, offering a more precise\n indication of size."
+                    android:textAlignment="textStart"
+                    android:layout_marginStart="5dp"
+                    android:textSize="8dp"
+                    android:textStyle="bold"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/group5"
+                    android:layout_marginStart="20dp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Price\n The value of sapphires is typically determined by their \n rarity, hue, color intensity, clarity, size, and place\n of origin commonly measured in millimeters\n rarity, hue, color intensity, clarity, size, and place"
+                    android:textAlignment="textStart"
+                    android:layout_marginStart="5dp"
+                    android:textSize="8dp"
+                    android:textStyle="bold"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/group6"
+                    android:layout_marginStart="20dp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Treatment\nSapphires can be untreated or heat-treated to \nenhance their color and clarity. Natural sapphires\n near thermal vents often achieve vibrant colors \nnaturally, while experts can mimic this effect \nthrough controlled heating."
+                    android:textAlignment="textStart"
+                    android:layout_marginStart="5dp"
+                    android:textSize="8dp"
+                    android:textStyle="bold"/>
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="How to Clean Emeralds?"
+                android:layout_gravity="center"
+                android:textSize="20dp"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:fontFamily="@font/inria_sans"
+                android:layout_marginTop="10dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="10dp"
+                android:text="The safest way to clean emeralds is by gently washing them with a soft toothbrush and\n
+warm, chemical-free soap. Because many natural emeralds undergo fracture filling\n
+treatments, it's important to avoid using ultrasonic cleaners or hot steam."
+                android:layout_marginRight="10dp"
+                android:textAlignment="center"
+                android:layout_marginLeft="10dp"
+                android:fontFamily="@font/inria_sans"
+                android:layout_marginBottom="40dp"
+                android:textColor="@color/black"
+                android:layout_marginTop="7dp"/>
+
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+</RelativeLayout>

@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    tools:context=".fragments.AppointmentFragment">
+
+   
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/appoitment"/>
+    <!-- EditText for Email -->
+    <EditText
+        android:id="@+id/nameEditAppoitment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Name"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        android:background="@drawable/edittext_bg"
+        android:padding="12dp"
+        android:imeOptions="actionNext"
+        android:inputType="textEmailAddress"
+        app:layout_constraintTop_toBottomOf="@id/signInsubText"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginHorizontal="32dp"
+        android:layout_marginTop="20dp"/>
+
+    <!-- EditText for Password -->
+    <EditText
+        android:id="@+id/emailEditAppoitment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Email"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        android:background="@drawable/edittext_bg"
+        android:padding="12dp"
+        android:imeOptions="actionDone"
+        app:layout_constraintTop_toBottomOf="@id/emailEditSignIn"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginHorizontal="32dp"
+        android:layout_marginTop="10dp"/>
+    <!-- EditText for Password -->
+    <EditText
+        android:id="@+id/addresEditAppoitment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Address"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        android:background="@drawable/edittext_bg"
+        android:padding="12dp"
+        android:imeOptions="actionDone"
+        app:layout_constraintTop_toBottomOf="@id/emailEditSignIn"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginHorizontal="32dp"
+        android:layout_marginTop="10dp"/>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/edittext_bg"
+        app:layout_constraintTop_toBottomOf="@id/emailEditSignIn"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginHorizontal="32dp"
+        android:layout_marginTop="10dp">
+        <EditText
+            android:id="@+id/countryEditAppoitment"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="Calender"
+            android:textColor="@color/black"
+            android:textSize="16sp"
+            android:background="@null"
+            android:padding="12dp"
+            android:imeOptions="actionDone" />
+        <ImageView
+            android:id="@+id/countryImage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/baseline_arrow_drop_down_24"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:layout_marginHorizontal="20dp"/>
+
+    </RelativeLayout>
+  <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+      android:background="@drawable/edittext_bg"
+        app:layout_constraintTop_toBottomOf="@id/emailEditSignIn"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginHorizontal="32dp"
+        android:layout_marginTop="10dp">
+      <EditText
+          android:id="@+id/celenderEditAppoitment"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:hint="Calender"
+          android:textColor="@color/black"
+          android:textSize="16sp"
+          android:background="@null"
+          android:padding="12dp"
+          android:imeOptions="actionDone" />
+      <ImageView
+          android:id="@+id/calenderImage"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:background="@drawable/baseline_calendar_month_24"
+        android:layout_alignParentEnd="true"
+          android:layout_centerVertical="true"
+          android:layout_marginHorizontal="20dp"/>
+
+  </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/edittext_bg"
+        app:layout_constraintTop_toBottomOf="@id/emailEditSignIn"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginHorizontal="32dp"
+        android:layout_marginTop="10dp">
+        <EditText
+            android:id="@+id/timeEditAppoitment"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="Time"
+            android:textColor="@color/black"
+            android:textSize="16sp"
+            android:background="@null"
+            android:padding="12dp"
+            android:imeOptions="actionDone" />
+        <ImageView
+            android:id="@+id/timeImage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/baseline_access_time_24"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:layout_marginHorizontal="20dp"/>
+
+    </RelativeLayout>
+    <TextView
+        android:id="@+id/appoitmentBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Virtual Appointment"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        android:textSize="18sp"
+        android:layout_gravity="center_horizontal"
+        android:background="#25212A"
+        android:paddingVertical="12dp"
+        android:paddingHorizontal="24dp"
+        app:layout_constraintTop_toBottomOf="@id/passEditSignUp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginBottom="20dp"
+        android:layout_marginTop="24dp" />
+  </LinearLayout>
+

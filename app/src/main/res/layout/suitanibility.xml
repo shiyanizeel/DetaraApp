@@ -1,0 +1,483 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id="@+id/goalsLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@drawable/suitanibility"
+        android:layout_marginTop="30dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Our Sustainability"
+            android:textStyle="bold"
+            android:textColor="@color/white"
+            android:fontFamily="@font/inria_sans"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="30dp"
+            android:textSize="16dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="We recycle 96% of our gold to aid miners, their communities, and the\n environment, promoting fair wages and sustainable practices."
+            android:textSize="10dp"
+            android:textAlignment="center"
+            android:layout_gravity="center_horizontal"
+            android:textColor="@color/white"
+            android:fontFamily="@font/inria_sans
+"/>
+
+    </LinearLayout>
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/goalsLayout"
+        android:scrollbars="none">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Morally procured Diamonds"
+                android:layout_gravity="center"
+                android:textSize="16dp"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:fontFamily="@font/inria_sans"
+                android:layout_marginTop="10dp"/>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/whitepinkblue"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Shining a Light on Sustainability"
+                android:layout_gravity="center"
+                android:textSize="20dp"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:fontFamily="@font/inria_sans"
+                android:layout_marginTop="10dp"/>
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:layout_gravity="center"
+                android:textSize="10dp"
+                android:text="At Detara Gemologisk, we believe that luxury should be synonymous with responsibility.\n Our commitment to ethical and sustainable diamond practices is at the heart of\n everything we do. We are proud to offer a collection of diamonds that are not only\n beautiful but also ethically sourced and produced.\n\n
+What sets us apart is our unwavering commitment to transparency and accountability.\n We believe that consumers deserve to know the journey of their diamonds, from the\n mine to their hands. Our rigorous traceability measures ensure that every diamond we\n sell is ethically sourced and conflict-free."
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="7dp"
+                android:fontFamily="@font/inria_sans"
+                android:textColor="@color/black"/>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/labourpractices"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Fair Labor Practices"
+                android:layout_gravity="center"
+                android:textSize="20dp"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:fontFamily="@font/inria_sans"
+                android:layout_marginTop="10dp"/>
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:layout_gravity="center"
+                android:textSize="10dp"
+                android:text="We uphold the highest labor standards, ensuring that all workers in our supply chain\n are treated fairly and with respect. We support initiatives that promote human rights\n and worker well-being.\n\n
+We believe that it is our responsibility as a leader in the diamond industry to set a\n positive example for others to follow. By upholding the highest labor standards, we are\n helping to create a more equitable and sustainable future for the industry as a whole."
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="7dp"
+                android:fontFamily="@font/inria_sans"
+                android:textColor="@color/black"/>
+
+            <HorizontalScrollView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:scrollbars="none"
+                android:background="@drawable/oursustabilitybackground">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="20dp"
+                    android:orientation="horizontal">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:src="@drawable/sustabilityimg1"
+                            android:paddingHorizontal="10dp"
+                            android:paddingVertical="10dp"/>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Conflict-Free Diamonds"
+                            android:textColor="@color/white"
+                            android:textAlignment="textStart"
+                            android:layout_marginStart="10dp"
+                            android:fontFamily="@font/inria_sans"
+                            android:textStyle="bold"
+                            android:textSize="7dp"/>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textSize="5dp"
+                            android:text="We adhere to the Kimberley Process\n Certification Scheme, ensuring that\n our diamonds are conflict-free and do\n not originate from conflict zones.\n Every diamond in our collection is\n traceable back to its source,\n guaranteeing its ethical origin."
+                            android:layout_marginStart="10dp"
+                            android:textColor="@color/white"
+                            android:layout_marginTop="5dp"
+                            android:fontFamily="@font/inria_sans"/>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:src="@drawable/sustabilityimg3"
+                            android:paddingHorizontal="10dp"
+                            android:paddingVertical="10dp"/>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Minimizing Our Footprint"
+                            android:textColor="@color/white"
+                            android:textAlignment="textStart"
+                            android:layout_marginStart="10dp"
+                            android:fontFamily="@font/inria_sans"
+                            android:textStyle="bold"
+                            android:textSize="7dp"/>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textSize="5dp"
+                            android:text="We are committed to minimizing our\n environmental impact. Our mining\n partners employ sustainable practices\n that prioritize the conservation of\n natural resources and ecosystems. We\n support initiatives to reduce water\n consumption and promote\n responsible waste management."
+                            android:layout_marginStart="10dp"
+                            android:textColor="@color/white"
+                            android:layout_marginTop="5dp"
+                            android:fontFamily="@font/inria_sans"/>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:src="@drawable/sustabilityimg4"
+                            android:paddingHorizontal="10dp"
+                            android:paddingVertical="10dp"/>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Industry Leaders"
+                            android:textColor="@color/white"
+                            android:textAlignment="textStart"
+                            android:layout_marginStart="10dp"
+                            android:fontFamily="@font/inria_sans"
+                            android:textStyle="bold"
+                            android:textSize="7dp"/>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textSize="5dp"
+                            android:text="We are proud to be a member of the\n Responsible Jewelry Council (RJC).\n This certification ensures that our\n practices align with the highest\n ethical and sustainability standards\n in the jewelry industry. We also\n collaborate with organizations\n dedicated to environmental\n protection and social responsibility."
+                            android:layout_marginStart="10dp"
+                            android:textColor="@color/white"
+                            android:layout_marginTop="5dp"
+                            android:fontFamily="@font/inria_sans"/>
+                    </LinearLayout>
+
+
+                </LinearLayout>
+            </HorizontalScrollView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Constantly Innovating"
+                android:layout_gravity="center"
+                android:textSize="20dp"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:fontFamily="@font/inria_sans"
+                android:layout_marginTop="10dp"/>
+
+            <HorizontalScrollView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:scrollbars="none">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="10dp"
+                    android:orientation="horizontal">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:paddingHorizontal="20dp"
+                        android:orientation="vertical"
+                        android:layout_gravity="center"
+                        android:paddingVertical="10dp"
+                        android:background="@drawable/ourstorybackground2">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Recovered"
+                            android:layout_marginTop="5dp"
+                            android:textColor="@color/black"
+                            android:textSize="7dp"/>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="1Recovered: We've significantly reduced our\n environmental impact by using 96% recycled gold and\n 97% recycled silver. Our goal is 100% reclaimed or\n Fairmined metals by 2025."
+                            android:textSize="5dp"
+                            android:layout_marginTop="5dp" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:paddingHorizontal="20dp"
+                        android:orientation="vertical"
+                        android:layout_gravity="center"
+                        android:layout_marginStart="10dp"
+                        android:paddingVertical="15dp"
+                        android:background="@drawable/ourstorybackground2">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Cyclicality"
+                            android:layout_marginTop="5dp"
+                            android:textColor="@color/black"
+                            android:textSize="7dp"/>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textSize="5dp"
+                            android:text="Long-lasting construction, lifelong warranties, renewable\n materials, and surprisingly creative trade-in schemes."
+                            android:layout_marginTop="5dp" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:paddingHorizontal="20dp"
+                        android:orientation="vertical"
+                        android:layout_gravity="center"
+                        android:layout_marginStart="10dp"
+                        android:paddingVertical="15dp"
+                        android:background="@drawable/ourstorybackground2">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Sustainability"
+                            android:layout_marginTop="5dp"
+                            android:textColor="@color/black"
+                            android:textSize="7dp"/>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textSize="5dp"
+                            android:text="Embracing circularity, our goals include zero waste in \nshowrooms and offices by 2030 and the elimination \nof single-use plastics by 2025."
+                            android:layout_marginTop="5dp" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:paddingHorizontal="20dp"
+                        android:orientation="vertical"
+                        android:layout_marginStart="10dp"
+                        android:layout_gravity="center"
+                        android:paddingVertical="15dp"
+                        android:background="@drawable/ourstorybackground2">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Pollutant reduction"
+                            android:layout_marginTop="5dp"
+                            android:textColor="@color/black"
+                            android:textSize="7dp"/>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textSize="5dp"
+                            android:text="Our primary goal is to combat climate change. We have\n established ambitious short-term goals to lower\n emissions across the board."
+                            android:layout_marginTop="5dp" />
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </HorizontalScrollView>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/susbalityimg5"
+                        android:paddingHorizontal="5dp"
+                        android:paddingVertical="5dp"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Engagement Rings"
+                        android:textColor="@color/black"
+                        android:textStyle="bold"
+                        android:textSize="12dp"
+                        android:layout_marginStart="10dp"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/sustabilityimg6"
+                        android:paddingHorizontal="5dp"
+                        android:paddingVertical="5dp"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Woman’s Wedding Rings"
+                        android:textColor="@color/black"
+                        android:textStyle="bold"
+                        android:textSize="12dp"
+                        android:layout_marginStart="10dp"/>
+
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="40dp"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/sustabilityimg7"
+                        android:paddingHorizontal="5dp"
+                        android:paddingVertical="5dp"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Men’s Wedding Rings"
+                        android:textColor="@color/black"
+                        android:textStyle="bold"
+                        android:textSize="12dp"
+                        android:layout_marginStart="10dp"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="40dp"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/sustabilityimg8"
+                        android:paddingHorizontal="5dp"
+                        android:paddingVertical="5dp"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Gemstone Rings"
+                        android:textColor="@color/black"
+                        android:textStyle="bold"
+                        android:textSize="12dp"
+                        android:layout_marginStart="10dp"/>
+                </LinearLayout>
+            </LinearLayout>
+
+
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+</RelativeLayout>

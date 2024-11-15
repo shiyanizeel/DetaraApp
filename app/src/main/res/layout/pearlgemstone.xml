@@ -1,0 +1,451 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id="@+id/pearalLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/pearl"
+        android:layout_marginTop="30dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Pearl Guide"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:layout_marginTop="40dp"
+            android:textSize="16dp"
+            android:layout_marginStart="20dp"
+            android:fontFamily="@font/inria_sans"/>
+    </LinearLayout>
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/pearalLayout"
+        android:scrollbars="none">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="What are pearls?"
+                android:textAlignment="center"
+                android:textSize="20dp"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:fontFamily="@font/inria_sans"
+                android:layout_marginTop="10dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="10dp"
+                android:text="Pearls are organic gemstones that develop inside mollusks, such as oysters. When an irritant, like a grain of sand or a small piece of debris, infiltrates the mollusk's soft tissue, the mollusk responds by secreting nacre. This substance coats the irritant in successive layers, ultimately creating a pearl."
+                android:textAlignment="center"
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="10dp"
+                android:fontFamily="@font/inria_sans"
+                android:textColor="@color/black"
+                android:layout_marginTop="7dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Where do pearls come from?"
+                android:textAlignment="center"
+                android:textSize="20dp"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:fontFamily="@font/inria_sans"
+                android:layout_marginTop="10dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="10dp"
+                android:text="Pearls are produced by oysters, mussels, and other mollusks. Saltwater pearls, typically harvested from oysters, include well-known types such as Akoya, South Sea, and Tahitian pearls. Freshwater pearls are grown in mussels found in rivers and lakes, offering a wide variety of colors and shapes."
+                android:textAlignment="center"
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="10dp"
+                android:fontFamily="@font/inria_sans"
+                android:textColor="@color/black"
+                android:layout_marginTop="7dp"/>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/formationpearl"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Formation of Pearls"
+                android:textAlignment="center"
+                android:textSize="20dp"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:fontFamily="@font/inria_sans"
+                android:layout_marginTop="10dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="10dp"
+                android:text="Pearls are formed within the soft tissues of mollusks, such as oysters and mussels. The process begins when an irritant, such as a grain of sand or a parasite, enters the mollusk's shell. In response, the mollusk secretes layers of nacre, a combination of aragonite (a form of calcium carbonate) and conchiolin (an organic protein), around the irritant. Over time, these layers build up to form a pearl."
+                android:textAlignment="center"
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="10dp"
+                android:fontFamily="@font/inria_sans"
+                android:textColor="@color/black"
+                android:layout_marginTop="7dp"/>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/typesofpearl"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Types of Pearls"
+                android:textAlignment="center"
+                android:textSize="20dp"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:fontFamily="@font/inria_sans"
+                android:layout_marginTop="10dp"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="01"
+                    android:textSize="26dp"
+                    android:layout_marginStart="40dp"
+                    android:textColor="@color/black"
+                    android:textStyle="bold"
+                    android:layout_marginTop="10dp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Natural Pearls\nFormed without human intervention, these pearls are exceptionally rare and\nvaluable. Natural pearls tend to have irregular shapes and are increasingly\nscarce today due to overfishing and environmental changes."
+                    android:layout_marginStart="5dp"
+                    android:textSize="10dp"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="02"
+                    android:textSize="26dp"
+                    android:layout_marginStart="40dp"
+                    android:textColor="@color/black"
+                    android:textStyle="bold"
+                    android:layout_marginTop="10dp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Cultured Pearls \nMost pearls available today are cultured. This process involves deliberately\n placing an irritant into a mollusk to induce pearl formation. Cultured pearls \nare classified into various types:\n\n Akoya Pearls: Known for their classic white color and high luster, Akoya pearls \nare typically round and come from saltwater oysters in Japan and China. \n\nSouth Sea Pearls:  South Sea Pearls are known for their large size and high\n value, featuring a smooth luster and colors that range from white to gold.\n They are mainly cultivated in the waters surrounding Australia, Indonesia,\n and the Philippines.\n\n Tahitian Pearls:  Tahitian Pearls, cultivated in French Polynesia, are\n distinguished by their dark hues, which can range from black to gray with\n hints of green, blue, and purple.\n\n Freshwater Pearls:  Cultured in freshwater rivers and lakes, primarily in China,\n freshwater pearls come in a variety of shapes and colors, often more\n affordable than their saltwater counterparts.\n"
+                    android:layout_marginStart="5dp"
+                    android:textSize="10dp"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="03"
+                    android:textSize="26dp"
+                    android:layout_marginStart="40dp"
+                    android:textColor="@color/black"
+                    android:textStyle="bold"
+                    android:layout_marginTop="10dp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Imitation Pearls\n
+Imitation pearls, also referred to as simulated or faux pearls, are artificially\n
+created using materials such as coral, mother of pearl, plastic, or glass to\n
+replicate the look of genuine pearls\n"
+                    android:layout_marginStart="5dp"
+                    android:textSize="10dp"/>
+            </LinearLayout>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/pearalproperties"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="01"
+                    android:textSize="26dp"
+                    android:layout_marginStart="40dp"
+                    android:textColor="@color/black"
+                    android:textStyle="bold"
+                    android:layout_marginTop="10dp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Hardness\n 2.5 to 4.0"
+                    android:layout_marginStart="5dp"
+                    android:textSize="10dp"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="02"
+                    android:textSize="26dp"
+                    android:layout_marginStart="40dp"
+                    android:textColor="@color/black"
+                    android:textStyle="bold"
+                    android:layout_marginTop="10dp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Mineral \nPearls are mainly composed of calcium carbonate in the crystalline form of\n aragonite, which contributes to their distinctive structure and luminous \niridescent sheen."
+                    android:layout_marginStart="5dp"
+                    android:textSize="10dp"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="03"
+                    android:textSize="26dp"
+                    android:layout_marginStart="40dp"
+                    android:textColor="@color/black"
+                    android:textStyle="bold"
+                    android:layout_marginTop="10dp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Refractive Index\n The refractive index of pearls typically falls between 1.52 and 1.69,contributing to their characteristic luster and shimmering appearance."
+                    android:layout_marginStart="5dp"
+                    android:layout_marginBottom="20dp"
+                    android:textSize="10dp"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/group1"
+                    android:layout_marginStart="20dp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAlignment="textStart"
+                    android:text="Luster\nThe quality of a pearl's surface shine is known as its luster.\n Pearls with high luster exhibit crisp, bright reflections,\n whereas those with low luster appear more dull."
+                    android:layout_marginStart="5dp"
+                    android:textSize="8dp"
+                    android:textStyle="bold"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/group2"
+                    android:layout_marginStart="20dp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Surface Quality\nThe presence of blemishes or imperfections on a\n pearl's surface. Fewer blemishes indicate a higher\n quality pearl."
+                    android:textAlignment="textStart"
+                    android:layout_marginStart="5dp"
+                    android:textSize="8dp"
+                    android:textStyle="bold"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/group3"
+                    android:layout_marginStart="20dp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAlignment="textStart"
+                    android:text="Shape\nWhile perfectly round pearls are the most valuable, pearls\n can come in various shapes, including oval, teardrop (drop),\n and baroque (irregular)."
+                    android:layout_marginStart="5dp"
+                    android:textSize="8dp"
+                    android:textStyle="bold"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/group4"
+                    android:layout_marginStart="20dp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Color\nPearls are available in a spectrum of colors, including \n white, cream, and black, with undertones such as pink,\n green, or blue. The appeal of a particular color is\n influenced by individual taste and current market.\n trends."
+                    android:textAlignment="textStart"
+                    android:layout_marginStart="5dp"
+                    android:textSize="8dp"
+                    android:textStyle="bold"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/group5"
+                    android:layout_marginStart="20dp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAlignment="textStart"
+                    android:text="Size\nLarger pearls are generally more valuable, especially if they\n maintain high quality in other grading factors."
+                    android:layout_marginStart="5dp"
+                    android:textSize="8dp"
+                    android:textStyle="bold"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/group6"
+                    android:layout_marginStart="20dp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAlignment="textStart"
+                    android:text="Matching\nFor pearl jewelry like necklaces and earrings, the \nuniformity of pearls in size, color, and luster is \n important. Well-matched pearls in a strand or\n set are more valuable."
+                    android:layout_marginStart="5dp"
+                    android:textSize="8dp"
+                    android:textStyle="bold"/>
+            </LinearLayout>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/pearls3"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="10dp"
+                android:text="Pearl Cleaning &amp; Care\n\n With a hardness ranging from 2.5 to 4.0 on the Mohs scale, pearls are relatively soft\n
+and susceptible to scratches and damage from chemicals found in cosmetics and\n
+perfumes. To safeguard your pearls, refrain from wearing them right after applying\n
+personal care products and remove them before activities such as cleaning, exercising,\n
+or showering. Store pearls in a soft pouch to prevent scratches from other jewelry. For\n
+cleaning, avoid ultrasonic or steam cleaners; instead, gently wash them with warm\n
+water when necessary.\n\n\n
+Facts About Pearls\n\n
+Pearls are distinct in that they are created by living organisms, unlike other gemstones.\n
+They are sensitive to external factors such as high temperatures, chemicals, and acids,\n
+which requires careful handling and upkeep. Pearls are traditionally linked with the third\n
+and thirtieth wedding anniversaries."
+                android:textAlignment="textStart"
+                android:layout_marginStart="30dp"
+                android:fontFamily="@font/inria_sans"
+                android:textColor="@color/black"
+                android:layout_marginBottom="40dp"
+                android:layout_marginTop="7dp"/>
+
+
+        </LinearLayout>
+
+    </androidx.core.widget.NestedScrollView>
+
+</RelativeLayout>

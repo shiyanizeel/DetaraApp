@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/colorimageview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:fitsSystemWindows="true"
+        android:src="@drawable/diamondcolor" />
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/colorimageview"
+        android:scrollbars="none">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="About Color Diamond"
+                android:gravity="center_horizontal"
+                android:textSize="16dp"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:fontFamily="@font/inria_sans"
+                android:layout_marginTop="10dp"/>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/colorimage"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="What Is Diamond Color?"
+                android:textSize="16dp"
+                android:gravity="center_horizontal"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:fontFamily="@font/inria_sans"
+                android:layout_marginTop="10dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="10dp"
+                android:textSize="10dp"
+                android:text="Diamond color actually refers to the lack of color within the stone, rather than the\npresence of it. As one of the four Cs that determine a diamond's quality, color\nsignificantly impacts both its beauty and value. An ideal diamond is completely\ncolorless, similar to a drop of pure water, while others may exhibit a slight yellowish\ntint or feature fancy colors like pink or blue."
+                android:layout_marginTop="10dp"
+                android:textColor="@color/black"
+                android:fontFamily="@font/inria_sans"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Diamond Color Scale"
+                android:textSize="16dp"
+                android:gravity="center_horizontal"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:fontFamily="@font/inria_sans"
+                android:layout_marginTop="10dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="10dp"
+                android:text="The Gemological Institute of America (GIA) created the diamond color scale in the 1940s to\nstandardize diamond color grading around the world. The scale starts with the letter D, which\nindicates colorlessness, and progresses to the letter Z, which represents pale yellow, grey, pink,\nor brown."
+                android:textSize="10dp"
+                android:layout_marginTop="10dp"
+                android:textColor="@color/black"
+                android:fontFamily="@font/inria_sans"/>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/scalcolor"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Colorless Diamond Grades"
+                android:textSize="16dp"
+                android:gravity="center_horizontal"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:fontFamily="@font/inria_sans"
+                android:layout_marginTop="10dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="10dp"
+                android:text="Diamonds rated D, E, and F are considered completely colorless. D and E-colored diamonds
+have almost little color, whereas F diamonds have almost no color that is visible only when
+the diamond is face-down. These ice-white diamonds are the most rare and high-quality
+in hue.
+
+D Color 
+D is the highest color grade, reserved solely for absolutely colorless diamonds. D color
+diamonds appear icy white and completely devoid of color to the naked eye.
+
+Shop D Color Diamonds. E Color
+
+E-color diamonds are colorless and look nearly identical to D-color diamonds. Usually, only
+a trained gemologist can distinguish between these two grades.
+
+Shop E Colour Diamonds. Shop F Color Diamonds.
+
+Colorless Diamond Value 
+Colorless diamonds, holding the highest GIA color grades, are the rarest and most valuable
+among white diamonds. The difference between D, E, and F-colored diamonds is so subtle
+that only an expert can discern it, making each an excellent and premium choice when
+selecting the ideal diamond color."
+                android:textSize="10dp"
+                android:layout_marginTop="10dp"
+                android:textColor="@color/black"
+                android:fontFamily="@font/inria_sans"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Diamond Color Chart"
+                android:textSize="16dp"
+                android:gravity="center_horizontal"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:fontFamily="@font/inria_sans"
+                android:layout_marginTop="10dp"/>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/chartcolor"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"/>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/importantdiamond"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="How Important is a Diamond's Color?"
+                android:textSize="16dp"
+                android:gravity="center_horizontal"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:fontFamily="@font/inria_sans"
+                android:layout_marginTop="10dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="10dp"
+                android:textSize="10dp"
+                android:text="Color is a crucial factor when choosing the perfect diamond, as it influences both the
+diamond's appearance and its price. The quality of the color grade plays a significant role in
+determining a diamond's overall appeal and value. Though ice, colorless diamonds are
+typically the most sought after, modern couples frequently prefer a diamond with a
+warmer tint, as it can have a unique and timeless appearance.
+
+Choosing the right diamond involves finding the perfect balance between the four Cs
+and your budget. If color is your top priority, you might need to compromise on carat
+weight, cut, or clarity. Conversely, if carat weight, cut, or clarity are more important to you,
+opting for a near-colorless diamond could be a better choice."
+                android:layout_marginTop="10dp"
+                android:textColor="@color/black"
+                android:layout_marginBottom="40dp"
+                android:fontFamily="@font/inria_sans"/>
+
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+
+</RelativeLayout>

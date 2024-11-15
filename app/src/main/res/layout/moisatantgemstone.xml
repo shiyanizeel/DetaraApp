@@ -1,0 +1,293 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/moissanite"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/moissanite"
+        android:layout_marginTop="20dp"/>
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/moissanite"
+        android:scrollbars="none">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="1. Moissanite"
+                android:gravity="center_horizontal"
+                android:textSize="20dp"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:fontFamily="@font/inria_sans"
+                android:layout_marginTop="10dp"/>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/moissanitelabdiamond"
+                android:background="@color/white"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="10dp"
+                android:text="Origin: Moissanite is a gemstone originally discovered in a meteor crater but is now\n
+created in laboratories because natural sources are scarce.\n\n
+Appearance: Moissanite looks similar to a diamond but has more fire (the flashes of\n
+color you see when light hits the stone). It’s known for its brilliance, often appearing\n
+more sparkly than diamonds.\n\n
+Hardness: It ranks about 9.25 on the Mohs scale of hardness, making it highly durable\n
+but slightly softer than diamonds.\n\n
+Price: Moissanite is generally much cheaper than both lab-grown and natural\n
+diamonds.\n\n
+Ethical/Sustainability: Since it’s lab-created, it is a sustainable and ethical choice,\n
+without concerns about mining impacts.\n"
+                android:textSize="10dp"
+                android:layout_marginTop="10dp"
+                android:textColor="@color/black"
+                android:fontFamily="@font/inria_sans"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="2.Lab-Grown Diamond"
+                android:gravity="center_horizontal"
+                android:textSize="20dp"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:fontFamily="@font/inria_sans"
+                android:layout_marginTop="10dp"/>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/labgrowndiamonds"
+                android:background="@color/white"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="10dp"
+                android:text="Origin: Lab-grown diamonds are produced in laboratories using processes that mimic the\n
+conditions under which natural diamonds form in the earth (such as high-pressure,\n
+high-temperature, or chemical vapor deposition).\n\n
+Appearance: Lab-grown diamonds are visually and chemically identical to natural\n
+diamonds. They share the same sparkle, clarity, and color.\n\n
+Hardness: They have the same hardness as natural diamonds (10 on the Mohs scale),\n
+making them the hardest material known.\n\n
+Price: Lab-grown diamonds are typically 20-40% cheaper than natural diamonds.\n\n
+Ethical/Sustainability: Lab-grown diamonds are considered a more ethical and sustainable\n
+choice since they avoid the environmental and human rights concerns associated with\n
+diamond mining.\n\n"
+                android:textSize="10dp"
+                android:layout_marginTop="10dp"
+                android:textColor="@color/black"
+                android:fontFamily="@font/inria_sans"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="3.Natural Diamond"
+                android:gravity="center_horizontal"
+                android:textSize="20dp"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:fontFamily="@font/inria_sans"
+                android:layout_marginTop="10dp"/>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/naturaldiamonds"
+                android:background="@color/white"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="10dp"
+                android:text="Origin: Natural diamonds are formed over billions of years deep within the earth under\n
+extreme pressure and temperature and are mined from the earth.\n\n
+Appearance: Natural diamonds are valued for their rarity, and some people prefer them for\n
+their history and natural origin. They can exhibit slight imperfections known as inclusions\n\n.
+Hardness: Like lab-grown diamonds, natural diamonds rank 10 on the Mohs hardness\n
+scale.\n\n
+Price: Natural diamonds are the most expensive, mainly due to their rarity and the costs\n
+associated with mining and distribution.\n\n
+Ethical/Sustainability:Natural diamonds can have ethical concerns, especially regarding\n
+conflict diamonds, though there are certifications like the Kimberley Process aimed at\n
+reducing this risk. Mining can also have significant environmental impacts.\n\n"
+                android:textSize="10dp"
+                android:layout_marginTop="10dp"
+                android:textColor="@color/black"
+                android:fontFamily="@font/inria_sans"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Additional Key Points:"
+                android:gravity="center_horizontal"
+                android:textSize="20dp"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:fontFamily="@font/inria_sans"
+                android:layout_marginTop="10dp"/>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/adittionalkey"
+                android:background="@color/white"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="10dp"
+                android:text="* Resale Value:\n\n
+Natural diamonds : typically hold some resale value, although they usually don’t appreciate\n
+much unless they are very rare or of exceptional quality.\n\n
+
+Lab-grown diamonds : generally have lower resale value compared to natural diamonds, as\n
+they are less rare and easier to produce.\n\n
+Moissanite : has very limited resale value since it’s not a diamond and is cheaper to\n
+begin with.\n\n
+* Cultural Perception:\n\n
+Natural diamonds : have been marketed as the ultimate symbol of love and commitment,\n
+which has made them the traditional choice for engagement rings.\n\n
+Lab-grown diamonds : are gaining popularity, particularly among environmentally and socially conscious buyers who want the beauty of a diamond without the ethical concerns.\n\n
+Moissanite : is an excellent choice for those seeking an affordable, durable, and sparkling alternative, though it may not carry the same prestige as a diamond.\n\n"
+                android:textSize="10dp"
+                android:layout_marginTop="10dp"
+                android:textColor="@color/black"
+                android:fontFamily="@font/inria_sans"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Most Popular Moissanite Rings"
+                android:gravity="center_horizontal"
+                android:textSize="20dp"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:fontFamily="@font/inria_sans"
+                android:layout_marginTop="10dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Discover our most sought-after settings to\ncomplement your moissanite."
+                android:gravity="center_horizontal"
+                android:textSize="20dp"
+                android:textColor="@color/black"
+                android:fontFamily="@font/inria_sans"
+                android:layout_marginTop="10dp"/>
+
+            <HorizontalScrollView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:scrollbars="none">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="20dp"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:paddingHorizontal="5dp"
+                        android:paddingVertical="5dp"
+                        android:layout_marginBottom="40dp"
+                        android:src="@drawable/moisanite1"/>
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:paddingHorizontal="5dp"
+                        android:paddingVertical="5dp"
+                        android:src="@drawable/moisanit2"/>
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:paddingHorizontal="5dp"
+                        android:paddingVertical="5dp"
+                        android:src="@drawable/moisanite3"/>
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:paddingHorizontal="5dp"
+                        android:paddingVertical="5dp"
+                        android:src="@drawable/moisanite4"/>
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:paddingHorizontal="5dp"
+                        android:paddingVertical="5dp"
+                        android:src="@drawable/moisanite5"/>
+"/>
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:paddingHorizontal="5dp"
+                        android:paddingVertical="5dp"
+                        android:src="@drawable/moisanite6"/>
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:paddingHorizontal="5dp"
+                        android:paddingVertical="5dp"
+                        android:src="@drawable/moisanite7"/>
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:paddingHorizontal="5dp"
+                        android:paddingVertical="5dp"
+                        android:src="@drawable/moisanite8"/>
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:paddingHorizontal="5dp"
+                        android:paddingVertical="5dp"
+                        android:src="@drawable/moisanite9"/>
+                </LinearLayout>
+            </HorizontalScrollView>
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+</RelativeLayout>

@@ -1,0 +1,419 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id="@+id/alexandritelayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/alexdrite"
+        android:orientation="vertical"
+        android:layout_marginTop="30dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Alexandrite Stone Guide"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:layout_marginTop="30dp"
+            android:layout_marginStart="20dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Discover the captivating beauty of alexandrite, a rare \n gemstone celebrated for its unique color-changing ability."
+            android:layout_marginStart="20dp"
+            android:textSize="10dp"
+            android:layout_marginTop="5dp"/>
+
+    </LinearLayout>
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/alexandritelayout"
+        android:scrollbars="none">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="What is an alexandrite?"
+                android:layout_gravity="center"
+                android:textSize="20dp"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:fontFamily="@font/inria_sans"
+                android:layout_marginTop="10dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="10dp"
+                android:text="Alexandrite, a mesmerizing and rare gemstone, was first found in the Ural Mountains of Russia during the 1830s. As part of the chrysoberyl family, alexandrite is renowned for its unique property: it transitions from a vivid green in natural light to a rich purplish-red under incandescent light. This extraordinary color change effect is due to the chromium present in the gemstone's crystal structure."
+                android:textAlignment="center"
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="10dp"
+                android:fontFamily="@font/inria_sans"
+                android:textColor="@color/black"
+                android:layout_marginTop="7dp"/>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/litegreen"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="10dp"
+                android:text="01 Natural Emeralds\n
+     Natural alexandrite forms deep within the Earth over millions of years, under\n
+     specific environmental conditions that, along with trace elements, create this\n
+     remarkable gemstone. Its rarity makes natural alexandrite highly coveted by \n
+     collectors and gem enthusiasts."
+                android:textAlignment="textStart"
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="10dp"
+                android:fontFamily="@font/inria_sans"
+                android:textColor="@color/black"
+                android:layout_marginTop="7dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="10dp"
+                android:text="02 Lab Grown Emeralds\n
+     Lab-created alexandrite is produced under controlled laboratory conditions that\n
+     mimic the natural growth process, using the same mineral composition. These\n
+     synthetic gems exhibit the same impressive color-changing qualities as natural\n
+     alexandrite but are more accessible and generally more affordable, making them\n
+     an appealing choice for those seeking alexandrite jewelry."
+                android:textAlignment="textStart"
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="10dp"
+                android:fontFamily="@font/inria_sans"
+                android:textColor="@color/black"
+                android:layout_marginTop="7dp"/>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/lightblue"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="01"
+                    android:textSize="26dp"
+                    android:layout_marginStart="40dp"
+                    android:textColor="@color/black"
+                    android:textStyle="bold"
+                    android:layout_marginTop="10dp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Mohs Hardness 8.5"
+                    android:layout_marginStart="5dp"
+                    android:textSize="10dp"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="02"
+                    android:textSize="26dp"
+                    android:layout_marginStart="40dp"
+                    android:textColor="@color/black"
+                    android:textStyle="bold"
+                    android:layout_marginTop="10dp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Mineral\n Alexandrite is a rare type of chrysoberyl, a mineral made up of beryllium,\n aluminum, and oxygen. Its unique color-changing ability is due to the\n chromium present in its crystal structure."
+                    android:layout_marginStart="5dp"
+                    android:textSize="10dp"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="03"
+                    android:textSize="26dp"
+                    android:layout_marginStart="40dp"
+                    android:textColor="@color/black"
+                    android:textStyle="bold"
+                    android:layout_marginTop="10dp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Refractive Index \n Alexandrite has a refractive index ranging from about 1.746 to 1.755, which\n adds to its exceptional brilliance and fire. This property enhances the\n gemstone’s ability to reflect and refract light, further accentuating its \n unique color-changing effects."
+                    android:layout_marginStart="5dp"
+                    android:textSize="10dp"/>
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Grading and Value"
+                android:layout_gravity="center"
+                android:textSize="20dp"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:fontFamily="@font/inria_sans"
+                android:layout_marginTop="10dp"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/group1"
+                    android:layout_marginStart="20dp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAlignment="textStart"
+                    android:text="Shape\nAlexandrite is often cut in shapes that enhance its color\n
+change, such as ovals, cushions, and rounds. Fancy cuts can\n
+showcase its color-changing and brilliance. An\n
+also add to the stone’s uniqueness and value."
+                    android:layout_marginStart="5dp"
+                    android:textSize="8dp"
+                    android:textStyle="bold"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/group2"
+                    android:layout_marginStart="20dp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Cut\nThe way alexandrite is cut affects its ability to\n
+showcase its color-changing and brilliance. An\n
+expertly proportioned and symmetrical cut\n
+enhances the gemstone's optical qualities to their\n
+fullest."
+                    android:textAlignment="textStart"
+                    android:layout_marginStart="5dp"
+                    android:textSize="8dp"
+                    android:textStyle="bold"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/group3"
+                    android:layout_marginStart="20dp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAlignment="textStart"
+                    android:text="Color\nThe saturation and hue of the colors also affect the value.\n
+A rich green in daylight and a deep red under incandescent\n
+light are preferred."
+                    android:layout_marginStart="5dp"
+                    android:textSize="8dp"
+                    android:textStyle="bold"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/group4"
+                    android:layout_marginStart="20dp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Clarity\nLike other gemstones, the clarity of alexandrite is\n
+important. Stones with fewer inclusions are more\n
+valuable, although some inclusions can add character\n
+to the gem."
+                    android:textAlignment="textStart"
+                    android:layout_marginStart="5dp"
+                    android:textSize="8dp"
+                    android:textStyle="bold"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/group5"
+                    android:layout_marginStart="20dp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Carat Weight and Size\nLarge alexandrite stones are extremely rare, particularly those\n that exhibit a high-quality color change. As with most\n gemstones, their value rises significantly with size, given that \nother factors like color and clarity are also favorable."
+                    android:textAlignment="textStart"
+                    android:layout_marginStart="5dp"
+                    android:textSize="8dp"
+                    android:textStyle="bold"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/group6"
+                    android:layout_marginStart="20dp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAlignment="textStart"
+                    android:text="Price\nThe worth of alexandrite is influenced by several \n important factors, such as color intensity, clarity, size,\n  origin, and prevailing market conditions. Natural\n alexandrite with pronounced color-change properties,\n few inclusions, and exceptional quality generally\n commands a higher price."
+                    android:layout_marginStart="5dp"
+                    android:textSize="8dp"
+                    android:textStyle="bold"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/group7"
+                    android:layout_marginStart="20dp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAlignment="textStart"
+                    android:text="Treatment\nNatural alexandrite is typically kept untreated to preserve its \n inherent beauty and value. However, lower-grade stones\n might undergo treatment to enhance their color saturation or \nclarity, which can impact their overall value and appearance."
+                    android:layout_marginStart="5dp"
+                    android:textSize="8dp"
+                    android:textStyle="bold"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/group8"
+                    android:layout_marginStart="20dp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAlignment="textStart"
+                    android:text="Origin\nRussian alexandrite is often regarded as the most\n valuable because of its historical importance and\n exceptional color-changing properties."
+                    android:layout_marginStart="5dp"
+                    android:textSize="8dp"
+                    android:textStyle="bold"/>
+            </LinearLayout>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/cleaningcaretips"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Alexandrite Cleaning &amp; Care Tips"
+                android:textAlignment="center"
+                android:textSize="20dp"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:fontFamily="@font/inria_sans"
+                android:layout_marginTop="10dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="10dp"
+                android:text="With a hardness of 8.5 on the Mohs scale, alexandrite is durable enough for daily wear and\n resistant to scratches and abrasions.\n\nTo maintain the appearance of alexandrite jewelry, clean the gemstones with a mixture of\n mild soap and warm water, using a soft brush. Steer clear of harsh chemicals, ultrasonic\n cleaners, and extreme temperatures, as these can impact the gem’s color and durability.\n Consistent care and gentle handling will help preserve the brilliance and beauty of \nalexandrite pieces over time."
+                android:textAlignment="center"
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginBottom="40dp"
+                android:fontFamily="@font/inria_sans"
+                android:textColor="@color/black"
+                android:layout_marginTop="7dp"/>
+
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+
+</RelativeLayout>

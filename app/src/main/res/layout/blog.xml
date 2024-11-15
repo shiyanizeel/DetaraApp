@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/blogLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/blog"
+        android:layout_marginTop="20dp">
+    </ImageView>
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/blogLayout"
+        android:scrollbars="none">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Here are some tips to help you find an engagement ring\n that perfectly complements your personal aesthetic"
+                android:layout_gravity="center"
+                android:textSize="16dp"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:fontFamily="@font/inria_sans"
+                android:layout_marginTop="10dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:text="Finding an Engagement Ring That Reflects Your Unique Style"
+                android:layout_gravity="center"
+                android:textSize="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="7dp"
+                android:fontFamily="@font/inria_sans"
+                android:textColor="@color/black"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:layout_gravity="center"
+                android:text="Here are some tips to help you find an engagement ring\n that perfectly complements your personal aesthetic: "
+                android:textSize="10dp"
+                android:textStyle="bold"
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="7dp"
+                android:fontFamily="@font/inria_sans"
+                android:textColor="@color/black"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:text="Reflect Your Everyday Style: Consider the jewelry you typically wear. Do you prefer\n delicate pieces, bold statements, or something in between? Your engagement ring\n should seamlessly integrate into your existing wardrobe.\n\n
+Consider Your Lifestyle: Think about how you'll wear your ring on a daily basis. If\n you're constantly on the go, a sturdy, low-profile setting might be ideal. For a more\n glamorous look, a larger, more intricate design could be perfect.\n\n
+Explore Different Metals: Beyond traditional gold and platinum, consider other\n metals like rose gold, silver, or even titanium for a unique touch.\n\n
+Experiment with Gemstones: Diamonds aren't the only option. Explore colorful\n gemstones like sapphires, rubies, or emeralds to add a personal touch.\n\n
+Get Inspired by Nature:Nature-inspired designs can be both beautiful and\n meaningful. Consider motifs like flowers, leaves, or animals.\n
+Don't Forget the Setting: The setting can significantly impact the overall look of your\n ring. Experiment with different styles like solitaire, halo, or vintage-inspired settings\n to find the perfect match.\n\n
+Try Before You Buy: Visit a jewelry store and try on various styles to get a sense of\n what you like and don't like. Pay attention to how the ring feels on your finger and\n how it complements your hand shape.\n\n
+Remember, your engagement ring should be a reflection of your unique personality\n style. Take your time, explore different options, and choose a ring that you'll cherish \n years to come."
+                android:layout_gravity="center"
+                android:textSize="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="7dp"
+                android:fontFamily="@font/inria_sans"
+                android:textColor="@color/black"/>
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+</RelativeLayout>

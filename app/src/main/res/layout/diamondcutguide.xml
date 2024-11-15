@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id="@+id/diamondcutguide"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/diamondcut"
+        android:fitsSystemWindows="true"
+        android:orientation="vertical"
+        android:layout_marginTop="40dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Diamond Cuts"
+            android:textColor="@color/white"
+            android:fontFamily="@font/inria_sans"
+            android:textSize="16dp"
+            android:layout_marginTop="40dp"
+            android:layout_marginStart="20dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Discover all there is to know about stone cuts,\nincluding how they are graded and how\nthey sparkle."
+            android:textColor="@color/white"
+            android:textSize="10dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="10dp"
+            android:fontFamily="@font/inria_sans"/>
+
+    </LinearLayout>
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/diamondcutguide"
+        android:scrollbars="none">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="About Diamond"
+                android:layout_gravity="center"
+                android:textSize="16dp"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:fontFamily="@font/inria_sans"
+                android:layout_marginTop="10dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Cut is one of the four Cs that define and assess a diamond's quality. It describes how effectively a diamond's facets interact with light, influencing its brilliance and sparkle. Unlike shape, which refers to the diamond's outer form (such as round, oval, or pear), cut pertains to the diamond's internal craftsmanship, including its proportions, symmetry, and polish. Skilled cutting ensures that a diamond reflects light optimally, enhancing its overall sparkle. A well-cut diamond will exhibit a more radiant shine."
+                android:textSize="10dp"
+                android:textAlignment="center"
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="10dp"
+                android:fontFamily="@font/inria_sans"
+                android:textColor="@color/black"
+                android:layout_marginTop="7dp"/>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/cuttingdiamond"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Cut Characteristics"
+                android:textSize="20dp"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:layout_gravity="center_horizontal"
+                android:fontFamily="@font/inria_sans"
+                android:layout_marginTop="20dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="To comprehend the cut grade of a diamond, consider the following criteria, which, when combined, form a high-quality cut."
+                android:textAlignment="center"
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="10dp"
+                android:textSize="10dp"
+                android:layout_marginTop="10dp"
+                android:textColor="@color/black"
+                android:fontFamily="@font/inria_sans"/>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/cutcharactaristics"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Why is Cut Important?"
+                android:textSize="20dp"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:layout_gravity="center_horizontal"
+                android:fontFamily="@font/inria_sans"
+                android:layout_marginTop="20dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:text="Cut is a crucial factor to consider when buying a diamond, as it dictates the stone's brilliance. A well-cut diamond will deliver the dazzling light display you anticipate, while a poorly cut diamond will appear notably less vibrant. Understanding cut and its grading is essential, as it greatly influences both the diamond’s overall appearance and the quality of light it reflects."
+                android:textSize="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:textColor="@color/black"
+                android:fontFamily="@font/inria_sans"/>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/diamondgraded"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="How is Diamond Cut Graded?"
+                android:textSize="20dp"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:layout_gravity="center_horizontal"
+                android:fontFamily="@font/inria_sans"
+                android:layout_marginTop="20dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:text="The Gemological Institute of America (GIA) has conducted significant research on how light interacts with round brilliant cut diamonds to better understand the aspects that influence their appearance and sparkle. Their research led to the creation of the GIA Cut Grading System, which standardizes and evaluates cut quality based on appearance (brilliance, fire, scintillation), design (proportion), and craftsmanship (polish, symmetry). The cut scale goes from Excellent to Very Good, Good, Fair, and Poor.﻿Many independent gemological institutions have their own methods for ranking diamonds based on overall cut. For instance, the International Gemological Institute (IGI) includes an extra grade above Excellent, designating their top-tier diamonds as Ideal. At Brilliant Earth, we use specialized terminology to help our customers understand the subtle differences in cu that impact both quality and price."
+                android:textSize="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:textColor="@color/black"
+                android:fontFamily="@font/inria_sans"/>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/impectprice"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="How Does Diamond Cut Impact Price?"
+                android:textSize="20dp"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:layout_gravity="center_horizontal"
+                android:fontFamily="@font/inria_sans"
+                android:layout_marginTop="20dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:text="The price of a diamond can be influenced by the grades of all four Cs, and cut is no\ndifferent; typically, a higher cut grade comes with a higher price tag. To find the right\ndiamond, you’ll need to balance your budget with the four Cs. For instance, if sparkle is\nyour top priority, you might choose to prioritize cut over carat weight, color, or clarity to\nstay within your budget."
+                android:textSize="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:textColor="@color/black"
+                android:layout_marginBottom="40dp"
+                android:fontFamily="@font/inria_sans"/>
+
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+</RelativeLayout>

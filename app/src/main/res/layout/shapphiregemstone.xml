@@ -1,0 +1,431 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id="@+id/sapphireLinearlayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/shappierguide"
+        android:layout_marginTop="30dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Sapphire Guide"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:fontFamily="@font/inria_sans"
+            android:layout_marginTop="50dp"
+            android:layout_marginStart="20dp"/>
+    </LinearLayout>
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/sapphireLinearlayout"
+        android:scrollbars="none">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="About Diamond Clarity"
+                android:gravity="center_horizontal"
+                android:textSize="20dp"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:fontFamily="@font/inria_sans"
+                android:layout_marginTop="10dp"/>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/pinkandblue"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="10dp"
+                android:text="Sapphire is a precious gem made from the mineral corundum and contains trace elements like iron, titanium, cobalt, boron, or silicon. While blue is the most well-known color, sapphires come in nearly every hue except red, as red corundum is classified as ruby. Renowned for its stunning beauty and durability, sapphire has been treasured for centuries and is a popular choice for various types of jewelry, including engagement rings and earrings."
+                android:textSize="10dp"
+                android:layout_marginTop="10dp"
+                android:textColor="@color/black"
+                android:fontFamily="@font/inria_sans"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Sapphire Types"
+                android:gravity="center_horizontal"
+                android:textSize="20dp"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:fontFamily="@font/inria_sans"
+                android:layout_marginTop="10dp"/>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/pinkdiamondshappier"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="10dp"
+                android:text="Natural Sapphire \n\nNatural sapphires develop over millions of years deep within the Earth, typically within metamorphic or igneous rocks. Each sapphire crystal is distinct in size, shape, and color, manifesting in a diverse spectrum of shades, including blue, pink, purple, green, orange, teal, yellow, peach, white, and beyond."
+                android:textSize="10dp"
+                android:layout_marginTop="10dp"
+                android:textColor="@color/black"
+                android:fontFamily="@font/inria_sans"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="10dp"
+                android:text="Lab Grown Sapphires \n\n Lab-grown sapphires are meticulously crafted by scientists employing advanced technology and precision techniques. They share the same chemical properties as natural sapphires but often exhibit more consistent color and fewer imperfections due to their controlled growing environments. Available in a spectrum of hues, they offer the same vibrant array of colors as their natural counterparts."
+                android:textSize="10dp"
+                android:layout_marginTop="10dp"
+                android:textColor="@color/black"
+                android:fontFamily="@font/inria_sans"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Sapphire Meaning"
+                android:gravity="center_horizontal"
+                android:textSize="20dp"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:fontFamily="@font/inria_sans"
+                android:layout_marginTop="10dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="10dp"
+                android:text="Sapphire has long been a symbol of nobility, sincerity, truth, and faithfulness across various cultures. In ancient Greece and Rome, royalty believed that blue sapphires offered protection from envy and harm. During the Middle Ages, these gems were seen as a representation of heaven. Today, sapphires continue to be associated with royalty and timeless elegance."
+                android:textSize="10dp"
+                android:layout_marginTop="10dp"
+                android:textColor="@color/black"
+                android:fontFamily="@font/inria_sans"/>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/bluediamondshappier"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Mohs Hardness \n\n9\n\n Mineral\n\nCorundum\n\n Color \n\nAll colors except red \n\n Refractive Index \n\n1.762 to 1.770\n\n"
+                android:gravity="center_horizontal"
+                android:textSize="20dp"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:fontFamily="@font/inria_sans"
+                android:layout_marginTop="10dp"/>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/whitepinkblue"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="How to Choose a Sapphire"
+                android:gravity="center_horizontal"
+                android:textSize="20dp"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:fontFamily="@font/inria_sans"
+                android:layout_marginTop="10dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Choosing the right sapphire involves several factors, with color and shape being the\n most visually significant. It's also important to understand aspects like cut, color, and \nclarity to select the perfect gemstone.\n\n Color\n\n Sapphire colors extend well beyond the famous blue. Thanks to trace minerals like \n boron or iron, sapphires can exhibit nearly every color except red, including:"
+                android:gravity="center_horizontal"
+                android:textSize="10dp"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:fontFamily="@font/inria_sans"
+                android:layout_marginTop="10dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="* Pink\n * Purple\n * Violet\n * Yellow\n * Orange\n * Green\n * White\n * Brown\n * Black\n * Grey\n * Blue\n"
+                android:gravity="left"
+                android:textSize="10dp"
+                android:textColor="@color/black"
+                android:layout_marginStart="30dp"
+                android:textStyle="bold"
+                android:fontFamily="@font/inria_sans"
+                android:layout_marginTop="20dp"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/group1"
+                    android:layout_marginStart="20dp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Shape\nShape refers to the external geometric form of a\ngemstone. Sapphires can be crafted into a wide variety\nof shapes, ranging from classic options like round or\nprincess cuts to more unique forms like trillion, kite,\nand beyond."
+                    android:textAlignment="textStart"
+                    android:layout_marginStart="5dp"
+                    android:textSize="8dp"
+                    android:textStyle="bold"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/group2"
+                    android:layout_marginStart="20dp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Cut\nSapphires are frequently measured in millimeters \n instead of carats because of differences in\ngemstone density. This method offers a more \n precise size reference."
+                    android:textAlignment="textStart"
+                    android:layout_marginStart="5dp"
+                    android:textSize="8dp"
+                    android:textStyle="bold"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/group3"
+                    android:layout_marginStart="20dp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Clarity\n\nNatural sapphires usually contain inclusions and\n possess unique characteristics. In contrast, lab-grown \nsapphires are typically free of inclusions, offering a \n more uniform and consistent appearance."
+                    android:textAlignment="textStart"
+                    android:layout_marginStart="5dp"
+                    android:textSize="8dp"
+                    android:textStyle="bold"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/group4"
+                    android:layout_marginStart="20dp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Carat Weight and Size\nSapphires are commonly measured in millimeters\n rather than carats because of variations in \ngemstone density, offering a more precise\n indication of size."
+                    android:textAlignment="textStart"
+                    android:layout_marginStart="5dp"
+                    android:textSize="8dp"
+                    android:textStyle="bold"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/group5"
+                    android:layout_marginStart="20dp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Price\n The value of sapphires is typically determined by their \n rarity, hue, color intensity, clarity, size, and place\n of origin commonly measured in millimeters\n rarity, hue, color intensity, clarity, size, and place"
+                    android:textAlignment="textStart"
+                    android:layout_marginStart="5dp"
+                    android:textSize="8dp"
+                    android:textStyle="bold"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/group6"
+                    android:layout_marginStart="20dp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Treatment\nSapphires can be untreated or heat-treated to \nenhance their color and clarity. Natural sapphires\n near thermal vents often achieve vibrant colors \nnaturally, while experts can mimic this effect \nthrough controlled heating."
+                    android:textAlignment="textStart"
+                    android:layout_marginStart="5dp"
+                    android:textSize="8dp"
+                    android:textStyle="bold"/>
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:text="Popular Gemstone Engagement Rings"
+                android:textSize="20dp"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:fontFamily="@font/inria_sans"
+                android:layout_marginTop="10dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:text="Discover our most popular settings to pair with sapphires."
+                android:textSize="12dp"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:fontFamily="@font/inria_sans"
+                android:layout_marginTop="10dp"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:gravity="center_horizontal"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/gemstoneengaj1"
+                    android:paddingVertical="10dp"
+                    android:paddingHorizontal="15dp"/>
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/gemstoneengaj2"
+                    android:paddingVertical="10dp"
+                    android:paddingHorizontal="5dp"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:gravity="center_horizontal"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/gemstoneengaj3"
+                    android:paddingVertical="10dp"
+                    android:paddingHorizontal="15dp"/>
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/gemstoneengaj4"
+                    android:paddingVertical="10dp"
+                    android:paddingHorizontal="5dp"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:gravity="center_horizontal"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/gemstoneengaj5"
+                    android:paddingVertical="10dp"
+                    android:paddingHorizontal="15dp"/>
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/gemstoneengaj6"
+                    android:paddingVertical="10dp"
+                    android:paddingHorizontal="5dp"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:gravity="center_horizontal"
+                android:layout_marginBottom="40dp"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/gemstoneengaj7"
+                    android:paddingVertical="10dp"
+                    android:paddingHorizontal="15dp"/>
+
+            </LinearLayout>
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+
+</RelativeLayout>

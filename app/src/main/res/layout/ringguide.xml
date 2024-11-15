@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/engeringstyleImageview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ringguide"
+        android:layout_marginTop="20dp"/>
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/engeringstyleImageview"
+        android:scrollbars="none">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Engagement Ring Styles and Settings"
+                android:textSize="16dp"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:fontFamily="@font/inria_sans"
+                android:layout_gravity="center"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="When selecting the perfect engagement ring, it's essential to understand the
+terminology and differences between style and setting. While it can be challenging to
+distinguish them, style refers to the overall look or theme of the ring, such as vintage
+or nature-inspired, whereas setting pertains to how the stones are mounted. A ring's
+setting is more technical, relating to how a central stone is set (bezel or prong-set)
+and what type of accents it has — or lacks (solitaires). Continue reading to learn more
+about the differences between style and setting."
+                android:textAlignment="center"
+                android:layout_marginTop="20dp"
+                android:textColor="@color/black"
+                android:textSize="10dp"
+                android:paddingEnd="10dp"
+                android:paddingStart="10dp"
+                android:fontFamily="@font/inria_sans"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Engagement Rings"
+                android:fontFamily="@font/inria_sans"
+                android:layout_marginTop="20dp"
+                android:layout_gravity="center"
+                android:textSize="20dp"
+                android:textColor="@color/black"
+                android:textStyle="bold"/>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:src="@drawable/classic"
+                android:layout_gravity="center" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Classic"
+                android:textSize="20dp"
+                android:layout_marginTop="20dp"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:fontFamily="@font/inria_sans"
+                android:layout_gravity="center"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:text="Classic engagement rings have timeless design elements such as clean lines,\n solitaire applications and tiny pavé accents. Sophisticated and subtly\N refined, these styles are timeless and perpetually in vogue, making them perfect for\N a piece of jewelry you'll cherish forever."
+                android:layout_marginTop="20dp"
+                android:textColor="@color/black"
+                android:textSize="10dp"
+                android:paddingEnd="10dp"
+                android:paddingStart="10dp"
+                android:fontFamily="@font/inria_sans"/>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:src="@drawable/luxe"
+                android:layout_gravity="center" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Luxe"
+                android:layout_marginTop="20dp"
+                android:textSize="20dp"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:fontFamily="@font/inria_sans"
+                android:layout_gravity="center"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:text="Luxurious wedding bands share a common feature: they are adorned with a plethora\n of diamonds. Whether featuring a classic diamond setting with a high carat weight or\n a sculptural design embellished with numerous tiny, glittering stones, these\n rings are always grand, striking, and visually stunning."
+                android:layout_marginTop="20dp"
+                android:textColor="@color/black"
+                android:textSize="10sp"
+                android:paddingEnd="10dp"
+                android:paddingStart="10dp"
+                android:fontFamily="@font/inria_sans"/>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:src="@drawable/vintage"
+                android:layout_gravity="center" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Vintage Inspired"
+                android:layout_marginTop="20dp"
+                android:textSize="20dp"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:fontFamily="@font/inria_sans"
+                android:layout_gravity="center"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:text="Vintage-inspired engagement rings incorporate elements like milgrain detailing,\n hand-carved filigree, or three-stone settings to represent the past, present,\n and future. Intricate features, such as step-cut gem accents, set these designs apart\n from modern or contemporary forms with simpler, sleeker lines."
+                android:layout_marginTop="20dp"
+                android:textColor="@color/black"
+                android:textSize="10dp"
+                android:paddingEnd="10dp"
+                android:paddingStart="10dp"
+                android:fontFamily="@font/inria_sans"/>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:src="@drawable/vintageinspired" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Nature Inspired"
+                android:textSize="20dp"
+                android:layout_marginTop="20dp"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:fontFamily="@font/inria_sans"
+                android:layout_gravity="center"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:text="Nature-inspired engagement rings bring on the bloom with design elements such as\n floral patterns, diamond petals, organically structured clusters, and twisted vines of\n precious metal. These styles can be solitaires or embellished with gems or other\n gemstones (such as green sapphires that recall leaves)."
+                android:layout_marginTop="20dp"
+                android:textColor="@color/black"
+                android:textSize="10dp"
+                android:paddingEnd="10dp"
+                android:paddingStart="10dp"
+                android:fontFamily="@font/inria_sans"/>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:src="@drawable/morden" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Modern"
+                android:layout_marginTop="20dp"
+                android:textSize="20dp"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:fontFamily="@font/inria_sans"
+                android:layout_gravity="center"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:text="Contemporary engagement rings showcase bold, sleek designs or artistic\n elements, such as wide bands, gracefully tapered shapes, or multi-prong\n settings with textured details. Split shank rings are a great example of\n a contemporary style that makes a statement with its sleek, streamlined design."
+                android:layout_marginTop="20dp"
+                android:textColor="@color/black"
+                android:textSize="10dp"
+                android:paddingEnd="10dp"
+                android:paddingStart="10dp"
+                android:fontFamily="@font/inria_sans"/>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:src="@drawable/nontraditional"
+                android:layout_gravity="center" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Nontraditional"
+                android:layout_marginTop="20dp"
+                android:textSize="20dp"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:fontFamily="@font/inria_sans"
+                android:layout_gravity="center"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:text="Unconventional engagement rings break away from tradition with design features\n like wide bands or entirely unique shapes. Often gender-neutral, they offer a distinctive\n+ look that caters to individual style preferences."
+                android:layout_marginTop="20dp"
+                android:textColor="@color/black"
+                android:textSize="10dp"
+                android:paddingEnd="10dp"
+                android:layout_marginBottom="50dp"
+                android:paddingStart="10dp"
+                android:fontFamily="@font/inria_sans"/>
+        </LinearLayout>
+
+    </androidx.core.widget.NestedScrollView>
+
+</RelativeLayout>

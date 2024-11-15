@@ -1,0 +1,263 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <ImageView
+        android:id="@+id/calarityimageview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:fitsSystemWindows="true"
+        android:src="@drawable/buyingdiamond" />
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/calarityimageview"
+        android:scrollbars="none">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="About Diamond Clarity"
+                android:gravity="center_horizontal"
+                android:textSize="16dp"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:fontFamily="@font/inria_sans"
+                android:layout_marginTop="10dp"/>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/diamondclarity"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="What Does Diamond Clarity Mean?"
+                android:gravity="center_horizontal"
+                android:textSize="16dp"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:fontFamily="@font/inria_sans"
+                android:layout_marginTop="10dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="10dp"
+                android:textSize="10dp"
+                android:text="Clarity is defined as the lack of internal inclusions and surface imperfections in a
+diamond. It is one of four characteristics that describe and determine a diamond's
+quality and worth.
+The Gemological Institute of America (GIA) devised the Clarity Scale, which ranks diamond
+clarity from Flawless to Included. Professionals utilize sophisticated equipment to
+evaluate a diamond under 10x magnification, allowing their expert eyes to see any
+flaws — or lack thereof — up close. Once analyzed, the diamond's clarity is graded and
+included in the official certification report.
+It's crucial to understand that while a diamond may have inclusions or blemishes, these
+flaws may not be noticeable to the untrained, naked eye. Diamonds having inclusions or
+imperfections that are invisible to the naked eye are termed."
+                android:layout_marginTop="10dp"
+                android:textColor="@color/black"
+                android:fontFamily="@font/inria_sans"/>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/clarityscale"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Diamond Clarity Scale"
+                android:gravity="center_horizontal"
+                android:textSize="16dp"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:fontFamily="@font/inria_sans"
+                android:layout_marginTop="10dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="10dp"
+                android:text="The GIA standardized the cut, color, carat, and clarity grades (often known as the four C's)\nin 1953. Today, its 6-category, 11-level Clarity Scale is utilized all around the world to identify\nthe degree of imperfection in a diamond."
+                android:textSize="10dp"
+                android:layout_marginTop="10dp"
+                android:textColor="@color/black"
+                android:fontFamily="@font/inria_sans"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="About Diamond Clarity"
+                android:gravity="center_horizontal"
+                android:textSize="16dp"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:fontFamily="@font/inria_sans"
+                android:layout_marginTop="10dp"/>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/diamondchart"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="How is Diamond Clarity Graded?"
+                android:gravity="center_horizontal"
+                android:textSize="16dp"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:fontFamily="@font/inria_sans"
+                android:layout_marginTop="10dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="10dp"
+                android:text="Professional graders employ 10x magnification to assess diamond clarity by determining the
+quantity, size, relief, nature, and position of defects, as well as how they affect the stone's
+overall appearance. After evaluating each inclusion or flaw, the diamond is assigned one
+of 11 particular clarity grades. The imperfections are then mapped on a visual layout to help
+identify the diamond's unique features.
+
+Size
+
+In general, the larger the inclusion, the greater its impact on the clarity grade. Extra-large,
+close-to-the-surface, or surface-reaching inclusions can all have an impact on a stone's
+durability. 
+Number
+
+Inclusions are evaluated based on their visibility against their number. In general, the higher
+the number of clarity features, the lower the clarity grade. 
+Position
+
+Position refers to the diamond's inclusion or imperfection. Imperfections can occur anywhere
+in or on a diamond, although inclusions closest to the table tend to have the greatest
+impact on clarity. 
+Nature
+
+The kind of an imperfection refers to the type of inclusion it is and the depth at which it
+appears within the diamond. Internal traits are referred to as inclusions, and outward
+characteristics as blemishes.
+
+Relief
+
+Relief refers to the distinctness of an inclusion or defect in comparison to a diamond.
+Transparent or white inclusions are considered low relief, whereas black inclusions are
+regarded high relief. The higher the relief, the more impact it will have on overall clarity."
+                android:textSize="10dp"
+                android:layout_marginTop="10dp"
+                android:textColor="@color/black"
+                android:fontFamily="@font/inria_sans"/>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/diamondclarity2"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="How Important Is Diamond Clarity?"
+                android:gravity="center_horizontal"
+                android:textSize="16dp"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:fontFamily="@font/inria_sans"
+                android:layout_marginTop="10dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="10dp"
+                android:text="Clarity is critical in defining a diamond's overall appearance, quality, and value. 
+Appearance: Diamonds that are heavily incorporated may appear duller and shine less
+brightly than those of higher quality..
+
+Quality: A diamond with excessive inclusions may be less durable and prone to chipping.
+
+Price: Flawless and internally flawless diamonds are extremely rare and pricey. Eye-clean
+or somewhat included diamonds are much more accessible."
+                android:textSize="10dp"
+                android:layout_marginTop="10dp"
+                android:textColor="@color/black"
+                android:fontFamily="@font/inria_sans"/>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/diamondclarity3"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="How Important Is Diamond Clarity?"
+                android:gravity="center_horizontal"
+                android:textSize="16dp"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:fontFamily="@font/inria_sans"
+                android:layout_marginTop="10dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="10dp"
+                android:text="With apparently unlimited choices of cut, color, carat, and clarity, choosing the correct
+diamond can be difficult. The ideal diamond for you will strike a balance between all four
+that suits your preferences and budget. When selecting a clarity rating,
+
+remember: 
+The most significant factor in determining clarity is whether the diamond is eye clean.
+Though flawless is technically the greatest grade, every eye clean diamond has superb
+clarity. Unless you plan to examine your diamond under 10x magnification on a regular
+basis, a SI1 or superior diamond is a good choice.
+
+.Begin your search and optimize your budget with Lightly Included (SI1 and SI2) and Very
+Lightly Included (VS1 and VS2) diamonds, which are generally eye clean without the
+added cost."
+                android:textSize="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="40dp"
+                android:textColor="@color/black"
+                android:fontFamily="@font/inria_sans"/>
+        </LinearLayout>
+
+    </androidx.core.widget.NestedScrollView>
+
+
+</RelativeLayout>

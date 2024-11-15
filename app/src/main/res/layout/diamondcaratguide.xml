@@ -1,0 +1,402 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id="@+id/diamondcutguide"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/diamondcaratguide"
+        android:fitsSystemWindows="true"
+        android:orientation="vertical"
+        android:layout_marginTop="40dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Diamond Carat Guide?"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:fontFamily="@font/inria_sans"
+            android:textSize="24dp"
+            android:layout_marginTop="80dp"
+            android:layout_marginStart="20dp"/>
+
+    </LinearLayout>
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/diamondcutguide"
+        android:scrollbars="none">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="About Diamond Carat"
+                android:gravity="center_horizontal"
+                android:textSize="16dp"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:fontFamily="@font/inria_sans"
+                android:layout_marginTop="10dp"/>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/sizecarat"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="What is a Carat?"
+                android:gravity="center_horizontal"
+                android:textSize="16dp"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:fontFamily="@font/inria_sans"
+                android:layout_marginTop="10dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="10dp"
+                android:text="Although often mistaken for size, carats are actually a measure of weight used for diamonds
+and other gemstones. One carat equals 0.2 grams, roughly equivalent to the weight
+of a paperclip.
+
+To grasp what a diamond carat measures, it helps to know its origins. The carat system
+started with carob seeds, which early gem merchants used as uniform weights on their
+scales. Before the carat became standardized, there was no universal measurement for
+gemstones. It wasn't until 1913 that the metric carat was widely adopted, and today, a carat
+is uniformly defined worldwide."
+                android:textSize="10dp"
+                android:layout_marginTop="10dp"
+                android:textColor="@color/black"
+                android:fontFamily="@font/inria_sans"/>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/bigcarate"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="How big is a carat?"
+                android:gravity="center_horizontal"
+                android:textSize="16dp"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:fontFamily="@font/inria_sans"
+                android:layout_marginTop="10dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="10dp"
+                android:textSize="10dp"
+                android:text="A carat measures weight, not the size of a diamond or gemstone. Due to variations in
+density, a one-carat round diamond might be 6.4mm in diameter, while a one-carat round
+sapphire could be 6.0mm. Additionally, a gem's size is influenced by its shape, cut, and depth.
+
+This graphic illustrates the typical size progression of round diamonds as carat weight
+increases. Keep in mind that each gemstone is unique, so the appearance of carat weight
+can vary."
+                android:layout_marginTop="10dp"
+                android:textColor="@color/black"
+                android:fontFamily="@font/inria_sans"/>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/caratmeasures"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="How is Diamond Carat Measured?"
+                android:gravity="center_horizontal"
+                android:textSize="16dp"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:fontFamily="@font/inria_sans"
+                android:layout_marginTop="10dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="10dp"
+                android:textSize="10dp"
+                android:text="One carat is equivalent to 200 milligrams, and each carat is subdivided into 100 'points'\n
+for precise measurement to the nearest thousandth of a unit. Experts use specialized\n
+microbalance scales to ensure accurate and consistent carat measurements for diamonds."
+                android:layout_marginTop="10dp"
+                android:textColor="@color/black"
+                android:fontFamily="@font/inria_sans"/>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/caratandgem"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Are gem carat and gem size the same?"
+                android:gravity="center_horizontal"
+                android:textSize="16dp"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:fontFamily="@font/inria_sans"
+                android:layout_marginTop="10dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:layout_marginRight="10dp"
+                android:text="Carat weight and diamond size are not synonymous. Carat measures weight, not size.\n
+While it might seem logical to equate the two, it is not accurate. Relying solely on carat\n
+weight to determine a diamond's size is not advisable."
+                android:layout_marginLeft="10dp"
+                android:textSize="10dp"
+                android:layout_marginTop="10dp"
+                android:textColor="@color/black"
+                android:fontFamily="@font/inria_sans"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Diamond Size Chart."
+                android:gravity="center_horizontal"
+                android:textSize="16dp"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:fontFamily="@font/inria_sans"
+                android:layout_marginTop="10dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:layout_marginRight="10dp"
+                android:text="This chart calculates the average size of different diamond shapes with various carat\n
+weights. Each image depicts the diamond from the top down. As you can see, two\n
+diamonds with the same carat weight may appear to be different sizes – this is because\n
+shape (together with density and depth) has a significant impact on how carat weight is\n
+visually portrayed."
+                android:layout_marginLeft="10dp"
+                android:textSize="10dp"
+                android:layout_marginTop="10dp"
+                android:textColor="@color/black"
+                android:fontFamily="@font/inria_sans"/>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_margin="10dp"
+                android:paddingStart="10dp"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
+                    android:src="@drawable/carateimg1"
+                    android:layout_margin="10dp"/>
+
+                <ImageView
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
+                    android:src="@drawable/carateimg2"
+                    android:layout_margin="10dp"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_margin="10dp"
+                android:paddingStart="10dp"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
+                    android:src="@drawable/carateimg3"
+                    android:layout_margin="10dp"/>
+
+                <ImageView
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
+                    android:src="@drawable/carateimg4"
+                    android:layout_margin="10dp"/>
+
+            </LinearLayout>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/carateimg5"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"/>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/significiantcarate"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="How Significant Is Diamond Carat?"
+                android:gravity="center_horizontal"
+                android:textSize="16dp"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:fontFamily="@font/inria_sans"
+                android:layout_marginTop="10dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:layout_marginRight="10dp"
+                android:text="Diamond carat and diamond size are not interchangeable terms. Carat measures weight,\n
+not size. While it might seem logical to equate the two, doing so is not accurate. Relying\n
+solely on carat weight to determine a diamond's size is not advisable.\n\n
+For instance, if a diamond's cut, color, and clarity are consistent, its price will generally\n
+increase with carat weight, as larger diamonds are significantly rarer. However, if there\n
+are variations in cut, color, or clarity, two diamonds of the same carat weight may have\n
+markedly different prices."
+                android:layout_marginLeft="10dp"
+                android:textSize="10dp"
+                android:layout_marginTop="10dp"
+                android:textColor="@color/black"
+                android:fontFamily="@font/inria_sans"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Actual Carat Size On Hand"
+                android:gravity="center_horizontal"
+                android:textSize="16dp"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:fontFamily="@font/inria_sans"
+                android:layout_marginTop="10dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:layout_marginRight="10dp"
+                android:text="Diamond carat and diamond size are not interchangeable terms. Carat measures weight,\n
+not size. While it might seem logical to equate the two, doing so is not accurate. Relying\n
+solely on carat weight to determine a diamond's size is not advisable.\n\n
+For instance, if a diamond's cut, color, and clarity are consistent, its price will generally\n
+increase with carat weight, as larger diamonds are significantly rarer. However, if there\n
+are variations in cut, color, or clarity, two diamonds of the same carat weight may have\n
+markedly different prices."
+                android:layout_marginLeft="10dp"
+                android:textSize="10dp"
+                android:layout_marginTop="10dp"
+                android:textColor="@color/black"
+                android:fontFamily="@font/inria_sans"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/carateimg6"
+                    android:paddingHorizontal="5dp"
+                    android:layout_marginStart="2dp"
+                    android:paddingVertical="10dp"/>
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/carateimg7"
+                    android:paddingHorizontal="5dp"
+                    android:paddingVertical="10dp"/>
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/carateimg8"
+                    android:paddingHorizontal="5dp"
+                    android:paddingVertical="10dp"/>
+            </LinearLayout>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/impressioncarate"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Is carat the only factor that influences the size\nimpression of a diamond?"
+                android:gravity="center_horizontal"
+                android:textSize="16dp"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:fontFamily="@font/inria_sans"
+                android:layout_marginTop="10dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:layout_marginRight="10dp"
+                android:text="Carat weight is just one factor affecting a diamond's visual size. The diamond's shape, depth,\n
+and symmetry also play significant roles in how large or small it appears.\n\n
+Elongated shapes (such as oval and emerald) appear larger than 1:1 diamonds (such as\n
+round) because they can support the majority of their weight in both length and depth.\n\n
+Two diamonds of the same shape but varying depths can look quite different in size. For\n
+instance, a one-carat pear-shaped diamond with a shallow depth will appear noticeably\n
+larger than one with a deeper depth."
+                android:layout_marginLeft="10dp"
+                android:textSize="10dp"
+                android:layout_marginTop="10dp"
+                android:textColor="@color/black"
+                android:layout_marginBottom="40dp"
+                android:fontFamily="@font/inria_sans"/>
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+</RelativeLayout>

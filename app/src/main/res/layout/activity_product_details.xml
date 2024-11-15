@@ -1,0 +1,534 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical"
+    android:fitsSystemWindows="true"
+    android:padding="20dp"
+    tools:context=".Activity.ProductDetails.ProductDetailsActivity">
+
+    <ImageView
+        android:id="@+id/itemShowArrowBack"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/baseline_arrow_back_24" />
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardviewItemShow"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/itemShowArrowBack"
+        android:layout_margin="20dp"
+        android:elevation="20dp"
+        app:cardCornerRadius="20dp">
+
+        <ImageView
+            android:id="@+id/itemImage"
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:scaleType="centerCrop" />
+    </androidx.cardview.widget.CardView>
+
+    <TextView
+        android:id="@+id/itemRingName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/cardviewItemShow"
+        android:fontFamily="@font/inria_sans"
+        android:text="Adorned Camellia 4 prong solitaire ring"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/itemRingPrice"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/itemRingName"
+        android:layout_marginTop="6dp"
+        android:fontFamily="@font/inria_sans"
+        android:text="$ 1,150.00 USD"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:textStyle="normal" />
+
+    <View
+        android:id="@+id/itemproductFeatureView"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_below="@id/itemRingPrice"
+        android:layout_marginTop="10dp"
+        android:background="@color/black" />
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/btnContain"
+        android:layout_below="@+id/itemproductFeatureView"
+        android:scrollbars="none">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:id="@+id/itemSpinnerContain1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/itemproductFeatureView"
+                android:layout_marginTop="6dp">
+
+                <ImageView
+                    android:id="@+id/featurelistItem"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/star" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="10dp"
+                    android:layout_toRightOf="@id/featurelistItem"
+                    android:fontFamily="@font/inria_sans"
+                    android:text="Product Features"
+                    android:textColor="@color/black" />
+
+                <ImageView
+                    android:id="@+id/arrowDown1Item"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentEnd="true"
+                    android:background="@drawable/baseline_keyboard_arrow_down_24" />
+
+            </RelativeLayout>
+            <!-- Hidden description box -->
+            <TextView
+                android:id="@+id/itemFeatureDescription"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/itemSpinnerContain1"
+                android:fontFamily="@font/inria_sans"
+                android:padding="10dp"
+                android:text="Our exquisite jewelry is crafted with the finest materials, including precious metals and gemstones. Each piece is designed to showcase intricate details and timeless elegance. Our collection features a variety of styles, from classic to contemporary, to suit every taste and occasion."
+                android:textColor="@color/black"
+                android:textSize="16sp"
+                android:visibility="gone" />
+
+            <View
+                android:id="@+id/itemmaterial_CareView"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_below="@id/itemSpinnerContain1"
+                android:layout_marginTop="5dp"
+                android:background="@color/black" />
+
+            <RelativeLayout
+                android:id="@+id/itemSpinnerContain2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/itemmaterial_CareView"
+                android:layout_marginTop="6dp">
+
+                <ImageView
+                    android:id="@+id/material_careItem"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/leaf" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="10dp"
+                    android:layout_toRightOf="@id/material_careItem"
+                    android:fontFamily="@font/inria_sans"
+                    android:text="Matireals And Cares"
+                    android:textColor="@color/black" />
+
+                <ImageView
+                    android:id="@+id/arrowDown2Item"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentEnd="true"
+                    android:background="@drawable/baseline_keyboard_arrow_down_24" />
+
+            </RelativeLayout>
+
+            <TextView
+                android:id="@+id/itemMaterialDescription"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/itemSpinnerContain1"
+                android:fontFamily="@font/inria_sans"
+                android:padding="10dp"
+                android:text="Jewelry is often made from precious metals like gold and silver, or gemstones like diamonds, rubies, and sapphires. To maintain its luster and value, avoid contact with harsh chemicals, store it in a soft pouch, and clean it regularly with a soft cloth."
+                android:textColor="@color/black"
+                android:textSize="16sp"
+                android:visibility="gone" />
+
+            <View
+                android:id="@+id/itemmarchandisTripView"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_below="@id/itemSpinnerContain2"
+                android:layout_marginTop="5dp"
+                android:background="@color/black" />
+
+            <RelativeLayout
+                android:id="@+id/itemSpinnerContain3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/itemmarchandisTripView"
+                android:layout_marginTop="6dp">
+
+                <ImageView
+                    android:id="@+id/marchandiesTripsItem"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/trips" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="10dp"
+                    android:layout_toRightOf="@id/marchandiesTripsItem"
+                    android:fontFamily="@font/inria_sans"
+                    android:text="Matireals And Cares"
+                    android:textColor="@color/black" />
+
+                <ImageView
+                    android:id="@+id/arrowDown3Item"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentEnd="true"
+                    android:background="@drawable/baseline_keyboard_arrow_down_24" />
+
+            </RelativeLayout>
+
+            <TextView
+                android:id="@+id/itemTipsDescription"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/itemSpinnerContain1"
+                android:fontFamily="@font/inria_sans"
+                android:padding="10dp"
+                android:text="Create a visually appealing display that showcases the jewelry's unique features. Use appropriate lighting, props, and backgrounds to highlight the pieces' beauty and craftsmanship. Consider the target audience and their preferences when designing your display."
+                android:textColor="@color/black"
+                android:textSize="16sp"
+                android:visibility="gone" />
+
+            <View
+                android:id="@+id/itemSpinnerView"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_below="@id/itemSpinnerContain3"
+                android:layout_marginTop="5dp"
+                android:background="@color/black" />
+
+            <LinearLayout
+                android:id="@+id/itemSpinnerContain4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/itemSpinnerView"
+                android:layout_marginTop="15dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/inria_sans"
+                    android:text="Color"
+                    android:textColor="@color/black"
+                    android:textSize="18sp"
+                    android:textStyle="normal" />
+                <RelativeLayout
+                    android:id="@+id/itemSpinnerColor"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/edittext_bg"
+                    android:paddingVertical="5dp"
+                    android:layout_below="@id/itemproductFeatureView"
+                    android:layout_marginTop="6dp">
+
+                    <TextView
+                        android:id="@+id/colorTV"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_marginLeft="10dp"
+                        android:fontFamily="@font/inria_sans"
+                        android:text="Color:"
+                        android:textColor="@color/black" />
+
+                    <ImageView
+                        android:id="@+id/arrowDownColor"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentEnd="true"
+                        android:background="@drawable/baseline_keyboard_arrow_down_24" />
+
+                </RelativeLayout>
+
+
+            </LinearLayout>
+<LinearLayout
+    android:id="@+id/otherContain"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+                <LinearLayout
+                android:id="@+id/itemSpinnerContain5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/itemSpinnerContain4"
+                android:layout_marginTop="10dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/inria_sans"
+                    android:text="Metal"
+                    android:textColor="@color/black"
+                    android:textSize="18sp"
+                    android:textStyle="normal" />
+
+                    <RelativeLayout
+                    android:id="@+id/itemSpinnerMetal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/edittext_bg"
+                    android:paddingVertical="5dp"
+                    android:layout_below="@id/itemproductFeatureView"
+                    android:layout_marginTop="6dp">
+
+                        <TextView
+                        android:id="@+id/metalTV"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_marginLeft="10dp"
+                        android:fontFamily="@font/inria_sans"
+                        android:text="Metal:"
+                        android:textColor="@color/black" />
+
+                    <ImageView
+                        android:id="@+id/arrowDownMetal"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentEnd="true"
+                        android:background="@drawable/baseline_keyboard_arrow_down_24" />
+
+                </RelativeLayout>
+
+            </LinearLayout>
+            <LinearLayout
+                android:id="@+id/itemSpinnerContain6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/inria_sans"
+                    android:text="Size"
+                    android:textColor="@color/black"
+                    android:textSize="18sp"
+                    android:textStyle="normal" />
+
+                <RelativeLayout
+                    android:id="@+id/itemSpinnerSize"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/edittext_bg"
+                    android:paddingVertical="5dp"
+                    android:layout_below="@id/itemproductFeatureView"
+                    android:layout_marginTop="6dp">
+
+                    <TextView
+                        android:id="@+id/sizeTV"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_marginLeft="10dp"
+                        android:fontFamily="@font/inria_sans"
+                        android:text="Size:"
+                        android:textColor="@color/black" />
+
+                    <ImageView
+                        android:id="@+id/arrowDownSize"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentEnd="true"
+                        android:background="@drawable/baseline_keyboard_arrow_down_24" />
+
+                </RelativeLayout>
+
+            </LinearLayout>
+            <LinearLayout
+                android:id="@+id/itemSpinnerContain7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/inria_sans"
+                    android:text="Caret"
+                    android:textColor="@color/black"
+                    android:textSize="18sp"
+                    android:textStyle="normal" />
+
+                <RelativeLayout
+                    android:id="@+id/itemSpinnerCaret"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/edittext_bg"
+                    android:paddingVertical="5dp"
+                    android:layout_below="@id/itemproductFeatureView"
+                    android:layout_marginTop="6dp">
+
+                    <TextView
+                        android:id="@+id/caretTV"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_marginLeft="10dp"
+                        android:fontFamily="@font/inria_sans"
+                        android:text="Caret:"
+                        android:textColor="@color/black" />
+
+                    <ImageView
+                        android:id="@+id/arrowDownCaret"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentEnd="true"
+                        android:background="@drawable/baseline_keyboard_arrow_down_24" />
+
+                </RelativeLayout>
+
+            </LinearLayout>
+            <LinearLayout
+                android:id="@+id/itemSpinnerContain8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/inria_sans"
+                    android:text="Weight"
+                    android:textColor="@color/black"
+                    android:textSize="18sp"
+                    android:textStyle="normal" />
+
+                <RelativeLayout
+                    android:id="@+id/itemSpinnerWeight"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/edittext_bg"
+                    android:paddingVertical="5dp"
+                    android:layout_below="@id/itemproductFeatureView"
+                    android:layout_marginTop="6dp">
+
+                    <TextView
+                        android:id="@+id/weightTV"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_marginLeft="10dp"
+                        android:fontFamily="@font/inria_sans"
+                        android:text="Weight"
+                        android:textColor="@color/black" />
+
+                    <ImageView
+                        android:id="@+id/arrowDownWeight"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentEnd="true"
+                        android:background="@drawable/baseline_keyboard_arrow_down_24" />
+
+                </RelativeLayout>
+
+            </LinearLayout>
+            </LinearLayout>
+            <LinearLayout
+                android:id="@+id/itemShareContain"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/itemSpinnerContain5"
+                android:layout_marginTop="15dp">
+
+                <ImageView
+                    android:id="@+id/productShareDetails"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/baseline_share_24" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginHorizontal="20dp"
+                    android:fontFamily="@font/inria_sans"
+                    android:text="Share"
+                    android:textColor="@color/black"
+                    android:textSize="20dp"
+                    android:textStyle="normal" />
+            </LinearLayout>
+        </LinearLayout>
+
+    </androidx.core.widget.NestedScrollView>
+<LinearLayout
+    android:id="@+id/btnContain"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:layout_alignParentBottom="true">
+    <TextView
+        android:id="@+id/itemAddcartBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/itemSpinnerContain6"
+        android:layout_marginHorizontal="30dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/btn_layout"
+        android:backgroundTint="@color/Appcolor"
+        android:gravity="center"
+        android:padding="10dp"
+        android:text="Add To Cart"
+        android:textColor="@color/white"
+        android:textSize="15sp"
+        android:textStyle="bold" />
+
+<!--    <TextView-->
+<!--        android:id="@+id/itemBuyNowBtn"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_below="@id/itemSpinnerContain6"-->
+<!--        android:layout_marginHorizontal="30dp"-->
+<!--        android:layout_marginTop="20dp"-->
+<!--        android:background="@drawable/btn_layout"-->
+<!--        android:backgroundTint="@color/Appcolor"-->
+<!--        android:gravity="center"-->
+<!--        android:padding="10dp"-->
+<!--        android:text="Buy it Now"-->
+<!--        android:textColor="@color/white"-->
+<!--        android:textSize="15sp"-->
+<!--        android:textStyle="bold" />-->
+</LinearLayout>
+
+</RelativeLayout>

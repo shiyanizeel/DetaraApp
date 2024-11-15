@@ -1,0 +1,365 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id="@+id/lablinearlayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/labdiamondguide"
+        android:layout_marginTop="20dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Lab Grown Diamonds Guide"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:textSize="20dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginStart="10dp"/>
+    </LinearLayout>
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/lablinearlayout"
+        android:scrollbars="none">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Shop Lab Diamonds by Shape"
+                android:gravity="center_horizontal"
+                android:layout_below="@+id/labimageview"
+                android:textSize="16dp"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:fontFamily="@font/inria_sans"
+                android:layout_marginTop="10dp"/>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/diamondlabguideshape"
+                android:background="@color/white"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Why Opt for Lab Grown Diamonds"
+                android:gravity="center_horizontal"
+                android:layout_below="@+id/labimageview"
+                android:textSize="16dp"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:fontFamily="@font/inria_sans"
+                android:layout_marginTop="10dp"/>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/labgrounguide"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="What Are Lab-Grown Diamonds"
+                android:gravity="center_horizontal"
+                android:layout_below="@+id/labimageview"
+                android:textSize="16dp"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:fontFamily="@font/inria_sans"
+                android:layout_marginTop="10dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="10dp"
+                android:textSize="10dp"
+                android:text="Lab-grown diamonds, also referred to as man-made, lab-created, or engineered diamonds,
+are produced in precisely controlled lab settings that replicate the natural conditions in
+the Earth's mantle where diamonds form. These synthetic diamonds consist of genuine
+carbon atoms arranged in the characteristic diamond crystal structure. As a result, they
+possess the same optical and chemical properties as natural diamonds, being composed
+of the identical material."
+                android:layout_marginTop="10dp"
+                android:textColor="@color/black"
+                android:fontFamily="@font/inria_sans"/>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/labwithnaturalsguide"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Lab Grown Diamonds vs. Natural Diamonds"
+                android:gravity="center_horizontal"
+                android:layout_below="@+id/labimageview"
+                android:textSize="16dp"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:fontFamily="@font/inria_sans"
+                android:layout_marginTop="10dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="10dp"
+                android:textSize="10dp"
+                android:text="Without specialized tools, distinguishing between a lab-grown diamond and a natural one
+is nearly impossible, as they appear identical. The only noticeable difference lies in their
+origin: one was formed deep within the Earth, while the other was created in a laboratory.\n\n
+Our lab-grown diamonds possess identical physical, chemical, and optical characteristics as
+natural diamonds, displaying the same brilliance, fire, and scintillation. While lab-created
+diamonds may contain trace elements that differ from those in natural diamonds, these
+do not impact their appearance. Identifying lab-created diamonds from natural ones
+requires specialized equipment."
+                android:layout_marginTop="10dp"
+                android:textColor="@color/black"
+                android:fontFamily="@font/inria_sans"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Comparing Lab-Grown Diamonds,\n
+Moissanites, and Cubic Zirconia"
+                android:gravity="center_horizontal"
+                android:layout_below="@+id/labimageview"
+                android:textSize="16dp"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:fontFamily="@font/inria_sans"
+                android:layout_marginTop="10dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="10dp"
+                android:textSize="10dp"
+                android:text="Understanding the difference between lab-created diamonds and diamond simulants is
+essential. Lab-grown diamonds are composed of carbon, just like natural diamonds. In
+contrast, diamond simulants may look like diamonds but are not made from true carbon
+crystals.\n\n
+Moissanite and cubic zirconia are two of the most commonly used diamond simulants.\n
+Moissanite: Although natural moissanite exists, it is extremely rare. This is because it
+originates not from Earth, but from meteorites that come from space. Thus, the moissanite.
+you can buy is also lab-created. Though they can resemble diamonds, they typically have
+a rainbow gleam rather than the dazzling glitter of a regular diamond.\n\n
+So, while cubic zirconia and moissanite may appear to be diamonds, they are not.\n
+Simulants do not possess the same chemical and physical attributes as genuine diamonds,
+which is why they are priced significantly lower than lab-grown diamonds. Unlike genuine
+or lab-created diamonds, simulants can often be distinguished by the naked eye."
+                android:layout_marginTop="10dp"
+                android:textColor="@color/black"
+                android:fontFamily="@font/inria_sans"/>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/labguideimagewithtext"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Image with text"
+                android:gravity="center_horizontal"
+                android:layout_below="@+id/labimageview"
+                android:textSize="16dp"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:fontFamily="@font/inria_sans"
+                android:layout_marginTop="10dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="10dp"
+                android:textSize="10dp"
+                android:text="Many of our engagement ring settings have lab grown diamond trimmings when set
+with a lab grown center diamond, enhancing our mining-free choices. For most styles,
+we match the type of accent gems to the type of center diamond. If you choose a
+lab-grown center diamond, the accent diamonds in your setting might also be lab-grown,
+as outlined in the product description."
+                android:layout_marginTop="10dp"
+                android:textColor="@color/black"
+                android:fontFamily="@font/inria_sans"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Lab Diamonds By Color"
+                android:gravity="center_horizontal"
+                android:layout_below="@+id/labimageview"
+                android:textSize="16dp"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:fontFamily="@font/inria_sans"
+                android:layout_marginTop="10dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="10dp"
+                android:textSize="10dp"
+                android:text="Our lab-created diamonds come in a variety of colorless options. We also sell lab diamonds
+in exotic colors that are regarded extremely rare in nature, such as vibrant yellows, blues,
+and pinks. Man-made fancy colored diamonds emerge when minute amounts of appropriate
+trace elements are present during the diamond's growth phase, exactly as they do in nature.
+Fancy colored lab produced diamonds are more cheap than their natural colored cousins."
+                android:layout_marginTop="10dp"
+                android:textColor="@color/black"
+                android:fontFamily="@font/inria_sans"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_margin="10dp"
+                android:paddingStart="10dp"
+                android:gravity="center_horizontal"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
+                    android:src="@drawable/labguideyellow"
+                    android:layout_margin="10dp"/>
+
+                <ImageView
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
+                    android:src="@drawable/labguidepink"
+                    android:layout_margin="10dp"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_margin="10dp"
+                android:gravity="center_horizontal"
+                android:paddingStart="10dp"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
+                    android:src="@drawable/labguideblue"
+                    android:layout_margin="10dp"/>
+
+                <ImageView
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
+                    android:src="@drawable/labguideshdingyellow"
+                    android:layout_margin="10dp"/>
+
+            </LinearLayout>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/labguidecapture"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="The Capture Collection"
+                android:gravity="center_horizontal"
+                android:layout_below="@+id/labimageview"
+                android:textSize="16dp"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:fontFamily="@font/inria_sans"
+                android:layout_marginTop="10dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="10dp"
+                android:textSize="10dp"
+                android:text="A new era has arrived, and it's time to reconsider all you know about diamonds. The Capture
+Collection features lab diamonds manufactured using carbon capture technology.\n\n
+Carbon capture diamonds are produced by capturing carbon dioxide and utilizing it to form
+diamond crystals. The diamonds are then grown, cut, and polished using sustainable energy
+in the same location to reduce transportation emissions and pollution."
+                android:layout_marginTop="10dp"
+                android:textColor="@color/black"
+                android:fontFamily="@font/inria_sans"/>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/labguidereneable"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="The Renewable Collection"
+                android:gravity="center_horizontal"
+                android:layout_below="@+id/labimageview"
+                android:textSize="16dp"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:fontFamily="@font/inria_sans"
+                android:layout_marginTop="10dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="10dp"
+                android:textSize="10dp"
+                android:text="Since 2022, we've relied on renewable energy for all our cutting and polishing processes.
+We're now employing it in the growing process as well: every diamond in our collection is
+grown, cut, and polished using 100% renewable energy sourced from wind and solar farms.
+The producers of these lab-grown diamonds, like all our suppliers, undergo audits to ensure
+compliance with our Supplier Code of Conduct, which mandates safe and healthy working
+conditions for all employees."
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="40dp"
+                android:textColor="@color/black"
+                android:fontFamily="@font/inria_sans"/>
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+
+</RelativeLayout>

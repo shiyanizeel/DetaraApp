@@ -1,0 +1,372 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/engagementringimageview2024"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/engagement2024"
+        android:layout_marginTop="30dp"/>
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/engagementringimageview2024"
+        android:scrollbars="none">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/engagementringtextview2024"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:text="The Top Engagement Ring Styles for 2024"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:textSize="20dp"
+                android:layout_marginTop="20dp"/>
+
+            <TextView
+                android:id="@+id/engagementringtextview2024_2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/customringtextview"
+                android:textAlignment="center"
+                android:text="We met with Annie Chen, our SVP of Merchandising and resident diamond engagement rings specialist, to discuss trends and forecast 2024's top engagement ring trends. Here's what we see:"
+                android:textSize="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="10dp"/>
+
+            <TextView
+                android:id="@+id/engagementringtextview2024_3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/customringtextview"
+                android:textAlignment="center"
+                android:text="1. Three Stones: These romantic designs include three stones representing the past,
+present, and future.\n2. Mixed Metal: White gold prongs anchor the center stone, while yellow gold bands
+maintain the design on-trend.\n3. Lab Grown Diamonds: Stunning and environmentally friendly, lab diamonds are
+becoming popular as center and accent stones.\n4. Timeless with a Twist: Think traditional silhouettes enhanced with distinctive
+prongs, hidden details, and bezel settings.\n5. East-West: These stylish arrangements place the center stones horizontally.\n6. Surprising Details: Hidden touches offer a little additional glitter.\n7. Statement Bands: Be bold and leave your mark. Consider thicker bands adorned
+with jaw-dropping diamonds.\n8. Vibrant Gems: Watch for gemstones and diamonds with bold, bright colors."
+                android:textSize="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="10dp"/>
+
+            <ImageView
+                android:id="@+id/engagementringimageview2024_2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/engagementringtextview2024_3"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:src="@drawable/trendthreestone"/>
+
+            <TextView
+                android:id="@+id/engagementringtextview2024_4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:text="1. Three Stones"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:textSize="20dp"
+                android:layout_marginTop="20dp"/>
+
+            <TextView
+                android:id="@+id/engagementringtextview2024_5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/customringtextview"
+                android:textAlignment="center"
+                android:text="When passion meets exquisite style, timeless creations emerge. Three stone rings, which date back to the late Georgian Era (1714–1837), are enduring classics back in vogue,according to Chen. In the 1950s, three-stone rings were commonly set with an emerald-cut center gem and baguette side stones. Though the elongated silhouette is still favored, clients now have the option to select a more modern version featuring round, oval, or even trillion-cut side stones. With countless ways to modernize a traditional design, three stone rings are incredibly popular – and show no signs of going out of style."
+                android:textSize="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="10dp"/>
+
+            <ImageView
+                android:id="@+id/engagementringimageview2024_3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/engagementringtextview2024_5"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:src="@drawable/pertietwisted"/>
+
+            <TextView
+                android:id="@+id/engagementringtextview2024_6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:text="2. Mixed metal."
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:textSize="20dp"
+                android:layout_marginTop="20dp"/>
+
+            <TextView
+                android:id="@+id/engagementringtextview2024_7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/customringtextview"
+                android:textAlignment="center"
+                android:text="These rings, known as two-tone settings, artfully blend two or more metals into a stylish and unique design Pairing warmer and cooler toned metals results in a versatile, effortless look that can be worn in many different ways,says Chen. Two-tone rings are cherished not only for their distinctive style but also for their practicality: while a client may prefer a yellow or rose gold band with a diamond center stone, white gold prongs can enhance the diamond’s brilliance. With mixed metal designs, customers who love the warmth of gold can still ensure their diamond shines brightly by incorporating white gold prongs."
+                android:textSize="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="10dp"/>
+
+            <ImageView
+                android:id="@+id/engagementringimageview2024_4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/engagementringtextview2024_5"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:src="@drawable/labdiamond"/>
+
+            <TextView
+                android:id="@+id/engagementringtextview2024_8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:text="3. Lab Diamonds"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:textSize="20dp"
+                android:layout_marginTop="20dp"/>
+
+            <TextView
+                android:id="@+id/engagementringtextview2024_9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/customringtextview"
+                android:textAlignment="center"
+                android:text="Lab-grown diamonds, which are optically, chemically, and physically identical to natural diamonds, are becoming an increasingly popular alternative.More consumers are now choosing lab-grown diamonds for engagement and wedding rings,says Chen, who supports breaking the stigma around lab diamonds. Customers appreciate the benefits: lab diamonds are completely mining-free, look identical to natural diamonds, and are often more affordable. Whether used as a center stone or in an accent setting, lab-created diamonds are gaining widespread appeal."
+                android:textSize="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="10dp"/>
+
+            <ImageView
+                android:id="@+id/engagementringimageview2024_5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/engagementringtextview2024_5"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:src="@drawable/timelesstwist"/>
+
+            <TextView
+                android:id="@+id/engagementringtextview2024_10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:text="4. Timeless, with a twist."
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:textSize="20dp"
+                android:layout_marginTop="20dp"/>
+
+            <TextView
+                android:id="@+id/engagementringtextview2024_11"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/customringtextview"
+                android:textAlignment="center"
+                android:text="Just like a great cocktail with a twist, the 2024 trend in engagement rings brings a fresh spin to classic designs. Chen notes,Consumers are continually looking for contemporary interpretations of traditional shapes that incorporate unique, design-forward elements.In 2024, couples will be drawn to alternatives like bezel settings and double prongs instead of standard prongs. Hidden halos are also gaining popularity, adding a touch of sparkle and luxury to what seems like a simple solitaire. This trend emphasizes styles that appear timeless yet are enhanced by sophisticated craftsmanship and subtle, elevated details."
+                android:textSize="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="10dp"/>
+
+            <ImageView
+                android:id="@+id/engagementringimageview2024_6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/engagementringtextview2024_5"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:src="@drawable/eastwest"/>
+
+            <TextView
+                android:id="@+id/engagementringtextview2024_12"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:text="5. East West"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:textSize="20dp"
+                android:layout_marginTop="20dp"/>
+
+            <TextView
+                android:id="@+id/engagementringtextview2024_13"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/customringtextview"
+                android:textAlignment="center"
+                android:text="Elongated shapes like radiant, emerald, and oval-cut diamonds are usually set vertically. However, in 2024, customers are defying this norm by placing their center stones horizontally to create a unique look.East-west rings provide a modern twist on classic designs,Chen notes. While the band of an east-west ring might remain classic (like a solitaire or pavé band), the horizontally set center stone allows clients to blend timeless elegance with a contemporary, trend-setting flair."
+                android:textSize="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="10dp"/>
+
+            <ImageView
+                android:id="@+id/engagementringimageview2024_7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/engagementringtextview2024_5"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:src="@drawable/surpriseddetails"/>
+
+            <TextView
+                android:id="@+id/engagementringtextview2024_14"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:text="6. Surprise Details"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:textSize="20dp"
+                android:layout_marginTop="20dp"/>
+
+            <TextView
+                android:id="@+id/engagementringtextview2024_15"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/customringtextview"
+                android:text="This trend is full of surprises, featuring elements like hidden halos and intricate diamond-studded petals beneath the main stone. Customers are drawn to designs that offer more than what initially appears. As Chen describes it,2024 will be all about incorporating a hint of unexpected brilliance,and we're excited for it."
+                android:textAlignment="center"
+                android:textSize="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="10dp"/>
+
+            <ImageView
+                android:id="@+id/engagementringimageview2024_8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/engagementringtextview2024_5"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:src="@drawable/statementbands"/>
+
+            <TextView
+                android:id="@+id/engagementringtextview2024_16"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:text="7. Statement Bands"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:textSize="20dp"
+                android:layout_marginTop="20dp"/>
+
+            <TextView
+                android:id="@+id/engagementringtextview2024_17"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/customringtextview"
+                android:text="This trend offers ample sparkle for both brides and grooms. These designs are generally gender-neutral and allow for a wide range of personal expression,Chen explains.They can range from simple solitaire bands embellished with diamonds or gemstones to those featuring distinctive textures,Chen adds, providing clients with numerous options to make a statement. Whether opting for a textured detail, a bold band, or a stack of rings, 2024 is set to embrace daring choices."
+                android:textAlignment="center"
+                android:textSize="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="10dp"/>
+
+
+
+            <ImageView
+                android:id="@+id/engagementringimageview2024_9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/engagementringtextview2024_5"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:src="@drawable/popsofcolor"/>
+
+            <TextView
+                android:id="@+id/engagementringtextview2024_18"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:text="8. Pops of Color"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:textSize="20dp"
+                android:layout_marginTop="20dp"/>
+
+            <TextView
+                android:id="@+id/engagementringtextview2024_19"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/customringtextview"
+                android:text="Couples in 2024 will choose to stand out rather than follow tradition. Pops of color, such as rich blue, fresh green, and fiery red, will be used in designs to provide a sense of individuality and expression. Colored gemstones are popular among celebrities and customers because they often have a special meaning,according to Chen, such as a favorite color, birthstone, or an associated attribute.Colorful center stones are the new tried-and-true, as seen on celebrities Jenny Slate, Kristen Bell, Zoe Saldana, Katy Perry, Lady Gaga, Blake Lively, and Scarlett Johansson, who all wear vibrant engagement rings with a playful punch of color."
+                android:textAlignment="center"
+                android:textSize="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="10dp"/>
+
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_margin="10dp"
+                android:paddingStart="10dp"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
+                    android:src="@drawable/images_ring2"
+                    android:layout_margin="10dp"/>
+
+                <ImageView
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
+                    android:src="@drawable/images_ring1"
+                    android:layout_margin="10dp"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:paddingStart="10dp"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
+                    android:src="@drawable/images_ring3"
+                    android:layout_margin="10dp"/>
+
+                <ImageView
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
+                    android:src="@drawable/images_ring4"
+                    android:layout_margin="10dp"/>
+            </LinearLayout>
+        </LinearLayout>
+
+    </androidx.core.widget.NestedScrollView>
+
+</RelativeLayout>

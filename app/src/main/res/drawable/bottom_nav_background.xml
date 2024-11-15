@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+        <!-- When the item is selected, show a filled background -->
+        <item android:state_checked="true" android:drawable="@drawable/border_filled_background" />
+        <!-- When the item is not selected, show a border only -->
+        <item android:state_checked="false" android:drawable="@drawable/border_background" />
+    </selector>
+

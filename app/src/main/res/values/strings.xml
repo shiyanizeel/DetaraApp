@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">DetaraGem_android</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="ER_engagement_ring_style">Engagement ring style</string>
+    <string name="ER_shape_By_Diamond">Shape By Diamond</string>
+    <string name="Benavi_jewellery">Benavi Jewellery</string>
+    <string name="Benavi_shape_By_Shope"> Benavi Shape By Shope</string>
+    <string name="Gemstone_ready_To_Shope"> Gemstone Ready To  Shope</string>
+    <string name="Gemstone_present"> Gemstone Present</string>
+    <string name="Jewellery">Jewellery</string>
+    <string name="Jewellery_shope_By_Shape">Jewellery Shope By Shape</string>
+    <string name="WR_by_Man">WR By Man</string>
+    <string name="WR_by_Women">WR By Man</string>
+    <string name="WR_by_Metal">WR By Man</string>
+    <string-array name="color_options">
+        <item>Red</item>
+        <item>Blue</item>
+        <item>Green</item>
+        <item>Yellow</item>
+        <item>Black</item>
+    </string-array>
+    <string-array name="jewelleryNames">
+        <item>Engagement Ring</item>
+        <item>Wedding Band</item>
+        <item>Pendant</item>
+        <item>Bracelet</item>
+        <item>Earrings</item>
+        <!-- Add more names as needed -->
+    </string-array>
+</resources>

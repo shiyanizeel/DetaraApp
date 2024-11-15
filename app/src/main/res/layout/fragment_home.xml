@@ -1,0 +1,319 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="-12dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:fitsSystemWindows="false"
+    tools:context=".fragments.HomeFragment">
+
+    <LinearLayout
+        android:id="@+id/loading_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerInParent="true"
+        android:background="@color/white"
+        android:visibility="gone"> <!-- Initially hidden -->
+        <com.airbnb.lottie.LottieAnimationView
+            android:id="@+id/loading_animation"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_centerInParent="true"
+            app:lottie_autoPlay="true"
+            app:lottie_loop="true"
+            app:lottie_rawRes="@raw/loader" />
+    </LinearLayout>
+
+    <androidx.core.widget.NestedScrollView
+        android:id="@+id/homeContain"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="none">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <AutoCompleteTextView
+                android:id="@+id/search_by"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/search_bg"
+                android:hint="Search By"
+                android:textSize="15sp"
+                android:padding="8dp"
+                android:maxLines="1"
+                android:imeOptions="actionNext"
+                android:layout_marginHorizontal="30dp"
+                android:layout_marginTop="13dp" />
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/jewelleryTypeRV"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="0dp"
+                android:layout_marginTop="20dp" />
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="0dp"
+                android:layout_marginTop="20dp"
+                android:id="@+id/jewelleryShapeRV"/>
+            <ImageSwitcher
+                android:id="@+id/imageSwitcherHome"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="20dp"
+                android:fontFamily="@font/inria_sans"
+                android:text="Browse Latest Jewellery Collections"
+
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <androidx.core.widget.NestedScrollView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:scrollbars="none"
+                android:layout_margin="30dp">
+                <HorizontalScrollView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:scrollbars="none">
+                    <LinearLayout
+                        android:id="@+id/leaniarlayout"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+                        <ImageView
+                            android:id="@+id/luxeryBaracelates"
+                            android:layout_width="143dp"
+                            android:layout_height="143dp"
+                            android:background="@drawable/luxurybraclets"/>
+                        <ImageView
+                            android:id="@+id/collectionWeddingRing"
+                            android:layout_width="143dp"
+                            android:layout_height="143dp"
+                            android:layout_marginHorizontal="20dp"
+                            android:background="@drawable/collectionweddingring"/>
+                        <ImageView
+                            android:id="@+id/everydayElegence"
+                            android:layout_width="143dp"
+                            android:layout_height="143dp"
+                            android:background="@drawable/everydayeligence"/>
+                        <ImageView
+                            android:id="@+id/yourSolitaires"
+                            android:layout_width="143dp"
+                            android:layout_height="143dp"
+                            android:layout_marginHorizontal="20dp"
+                            android:background="@drawable/yoursolitaires"/>
+                    </LinearLayout>
+                </HorizontalScrollView>
+
+            </androidx.core.widget.NestedScrollView>
+
+            <ImageView
+                android:id="@+id/giftCardHome"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/giftcard"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Alchemy of Materials"
+                android:layout_gravity="center_horizontal"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:fontFamily="@font/inria_sans"
+                android:layout_marginTop="30dp"/>
+
+            <LinearLayout
+                android:id="@+id/materialsDiamondContain"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="3"
+                android:layout_marginHorizontal="30dp"
+                android:layout_marginVertical="30dp">
+<LinearLayout
+    android:layout_width="0dp"
+    android:layout_height="wrap_content"
+    android:gravity="center_horizontal"
+    android:layout_weight="1"
+    android:orientation="vertical">
+    <ImageView
+        android:id="@+id/naturalDiamond"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:background="@drawable/naturaldiamond"/>
+    <TextView
+        android:id="@+id/naturalDiamondName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Natural \n Diamond"
+        android:layout_gravity="center_horizontal"
+        android:textSize="15dp"
+        android:textColor="@color/Appcolor"/>
+</LinearLayout>
+                <LinearLayout
+    android:layout_width="0dp"
+    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center_horizontal"
+    android:orientation="vertical"
+                    android:layout_marginHorizontal="20dp">
+                    <ImageView
+                        android:id="@+id/gemstoneDiamond"
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        android:background="@drawable/gemstonediamond"/>
+
+                    <TextView
+        android:id="@+id/gemstoneDiamondName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+        android:text="Gemstone \n Diamond"
+        android:textSize="15dp"
+        android:textColor="@color/Appcolor"/>
+</LinearLayout>
+                <LinearLayout
+    android:layout_width="0dp"
+    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center_horizontal"
+    android:orientation="vertical">
+                    <ImageView
+                        android:id="@+id/labDiamond"
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        android:background="@drawable/labdiamond"/>
+    <TextView
+        android:id="@+id/lablDiamondName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Lab \n Diamond"
+        android:layout_gravity="center_horizontal"
+        android:textSize="15dp"
+        android:textColor="@color/Appcolor"/>
+</LinearLayout>
+
+
+
+            </LinearLayout>
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="319dp"
+                android:background="@drawable/giftractengle">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="20dp"
+                    android:fontFamily="@font/italiana"
+                    android:text="Detara Gemologisk"
+                    android:textSize="30sp"
+                    android:textStyle="bold" />
+                <com.airbnb.lottie.LottieAnimationView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:lottie_rawRes="@raw/ringbox"
+                    android:layout_centerHorizontal="true"
+                    app:lottie_loop="true"
+                    app:lottie_autoPlay="true"
+                    android:layout_alignParentBottom="true"/>
+
+            </RelativeLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Customer Testimonials"
+                android:layout_gravity="center_horizontal"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:fontFamily="@font/inria_sans"
+                android:layout_marginTop="30dp"/>
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/reviewRecycleviewHome"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="20dp"/>
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/picHome"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="20dp"/>
+            <TextView
+                android:id="@+id/promiseHeadText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Promise"
+                android:layout_gravity="center_horizontal"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:fontFamily="@font/inria_sans" />
+
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/serviceRecycleview"
+                android:layout_margin="20dp"/>
+
+            <LinearLayout
+                xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:orientation="horizontal"
+                android:padding="16dp">
+                <!-- ImageView to display image based on NumberPicker value -->
+                <ImageButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/bt_previous"
+                    android:layout_gravity="center_vertical"
+                    android:background="@android:color/transparent"
+                    android:src="@drawable/baseline_arrow_back_ios_24" />
+
+                <!-- Image switcher -->
+                <ImageSwitcher
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:id="@+id/image_switcher"
+                    />
+
+                <!-- Right button to swipe image-->
+                <ImageButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/bt_next"
+                    android:layout_gravity="center_vertical"
+                    android:background="@android:color/transparent"
+                    android:src="@drawable/baseline_arrow_forward_ios_24" />
+            </LinearLayout>
+
+
+
+
+        </LinearLayout>
+
+    </androidx.core.widget.NestedScrollView>
+
+
+
+
+
+</FrameLayout>

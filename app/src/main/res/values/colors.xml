@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="Appcolor">#25212A</color>
+    <color name="selectcolor">#C5B9D5</color>
+    <color name="RoseGoldcolor">#C7ABB4</color>
+    <color name="YellowGoldcolor">#FBF8F8</color>
+    <color name="WhiteGoldcolor">#C5B9D5</color>
+    <color name="red">#F6060E</color>
+</resources>

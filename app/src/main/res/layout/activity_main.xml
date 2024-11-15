@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:id="@+id/mainRelativeLayout"
+    android:background="@color/white"
+    android:fitsSystemWindows="false"
+    tools:context=".Activity.HomeActivity.MainActivity">
+
+    <!-- Top system window padding -->
+    <include
+        android:id="@+id/customTopBarMain"
+
+        layout="@layout/customtopbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="?attr/actionBarSize" />
+
+    <!-- Fragment Container -->
+    <FrameLayout
+        android:id="@+id/fragment_container"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginTop="-10dp"
+        android:layout_marginBottom="0dp"
+        app:layout_constraintBottom_toTopOf="@id/bottom_navigation"
+        app:layout_constraintTop_toBottomOf="@id/customTopBarMain" />
+
+    <!-- Bottom Navigation View -->
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/bottom_navigation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/Appcolor"
+        android:layerType="software"
+        app:itemActiveIndicatorStyle="@null"
+    app:itemHorizontalTranslationEnabled="false"
+    app:itemIconTint="@color/bottom_nav_item_color"
+    app:labelVisibilityMode="unlabeled"
+    app:layout_constraintBottom_toBottomOf="parent"
+    app:menu="@menu/bottomnav_menu" />
+
+    <ProgressBar
+        android:id="@+id/progressBarRingMain"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        android:layout_gravity="center"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="16dp"/>
+</androidx.constraintlayout.widget.ConstraintLayout>
+

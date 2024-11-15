@@ -1,0 +1,395 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id="@+id/givebackLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@drawable/compassion"
+        android:layout_marginTop="30dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Compassion"
+            android:fontFamily="@font/inria_sans"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:textSize="16dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="30dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Just as a diamond is formed under immense pressure, compassion is forged through life's challenges.."
+            android:textColor="@color/black"
+            android:layout_gravity="center_horizontal"
+            android:textAlignment="center"/>
+    </LinearLayout>
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/givebackLayout"
+        android:scrollbars="none">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="More Than Just Gems"
+                android:layout_gravity="center"
+                android:textSize="16dp"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:fontFamily="@font/inria_sans"
+                android:layout_marginTop="10dp"/>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/cuttingdiamond"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Shining a Light on Sustainability"
+                android:layout_gravity="center"
+                android:textSize="20dp"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:fontFamily="@font/inria_sans"
+                android:layout_marginTop="10dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:text="At Detara Gemologisk, we believe that luxury should be a force for good. Our commitment to compassion extends beyond our products to the communities where our diamonds originate and the people who work in our supply chain."
+                android:layout_gravity="center"
+                android:textSize="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="7dp"
+                android:fontFamily="@font/inria_sans"
+                android:textColor="@color/black"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:orientation="vertical"
+                android:background="@drawable/ressponsiblebackground">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="10dp"
+                    android:text="Since the beginning, compassion has been central to our mission. Our commitment and concern for our communities extends to our workforce, the towns and areas in where we operate, and the individuals who contribute to the creation of our jewelry."
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginTop="30dp"
+                    android:textColor="@color/white"
+                    android:layout_marginBottom="30dp"
+                    android:textAlignment="center"/>
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="We asked people what they like about \nour products"
+                android:layout_gravity="center"
+                android:textSize="20dp"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:fontFamily="@font/inria_sans"
+                android:layout_marginTop="10dp"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/vectorheart"
+                        android:layout_marginStart="80dp"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="We are dedicated to making a positive\n impact on the communities where our\n diamonds are sourced. We support\n local initiatives focused on education,\n healthcare, and economic\n development. We partner with NGOs\n to provide essential services to those\n in need."
+                        android:textSize="10dp"
+                        android:textAlignment="center"
+                        android:paddingVertical="10dp"
+                        android:paddingHorizontal="15dp"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Giving Back"
+                        android:textAlignment="center"
+                        android:paddingHorizontal="15dp"
+                        android:textStyle="bold"
+                        android:textSize="10dp"
+                        android:textColor="@color/black"
+                        android:layout_marginStart="50dp"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/vectorstar"
+                        android:layout_marginStart="90dp"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="10dp"
+                        android:text="We believe in fair trade practices throughout our supply chain. We work with suppliers who prioritize fair wages, safe working conditions, and ethical sourcing. We ensure that our pricing reflects the true value of the diamonds and supports the livelihoods of those involved in their production."
+                        android:textAlignment="center"
+                        android:paddingVertical="10dp"
+                        android:paddingHorizontal="15dp"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Fairness for All"
+                        android:textAlignment="center"
+                        android:paddingHorizontal="15dp"
+                        android:textSize="10dp"
+                        android:textStyle="bold"
+                        android:textColor="@color/black"
+                        android:layout_marginStart="50dp"/>
+
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/vectorright"
+                        android:layout_marginStart="80dp"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="10dp"
+                        android:text="We are dedicated to making a positive\n impact on the communities where our\n diamonds are sourced. We support\n local initiatives focused on education,\n healthcare, and economic\n development. We partner with NGOs\n to provide essential services to those\n in need."
+                        android:textAlignment="center"
+                        android:paddingVertical="10dp"
+                        android:paddingHorizontal="15dp"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Supporting Causes We Care About"
+                        android:textAlignment="center"
+                        android:textSize="10dp"
+                        android:paddingHorizontal="15dp"
+                        android:textStyle="bold"
+                        android:textColor="@color/black"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/vectorsetting"
+                        android:layout_marginStart="80dp"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="10dp"
+                        android:text="When you choose our diamonds, you are not only investing in a beautiful piece of jewelry but also supporting a company that is committed to making a positive impact on the world."
+                        android:textAlignment="center"
+                        android:paddingVertical="10dp"
+                        android:paddingHorizontal="15dp"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Supporting Causes We Care About"
+                        android:textAlignment="center"
+                        android:textSize="10dp"
+                        android:paddingHorizontal="15dp"
+                        android:textStyle="bold"
+                        android:layout_marginTop="30dp"
+                        android:textColor="@color/black"/>
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/vectorfilter"
+                        android:layout_marginStart="80dp"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="10dp"
+                        android:text="We are dedicated to making a positive\n impact on the communities where our\n diamonds are sourced. We support\n local initiatives focused on education,\n healthcare, and economic\n development. We partner with NGOs\n to provide essential services to those\n in need."
+                        android:textAlignment="center"
+                        android:paddingVertical="10dp"
+                        android:paddingHorizontal="15dp"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Supporting Causes We Care About"
+                        android:textAlignment="center"
+                        android:textSize="10dp"
+                        android:paddingHorizontal="15dp"
+                        android:textStyle="bold"
+                        android:textColor="@color/black"/>
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:orientation="vertical"
+                android:background="@drawable/ressponsiblebackground">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="10dp"
+                    android:text="We concentrate our donations on three areas through the Detara Gemologisk\n Foundation: climate action, social impact, and responsible sourcing."
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginTop="30dp"
+                    android:textColor="@color/white"
+                    android:layout_marginBottom="30dp"
+                    android:textAlignment="center"/>
+            </LinearLayout>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/piechart"
+                android:layout_gravity="center"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="40dp"
+                android:paddingVertical="50dp"
+                android:layout_marginEnd="40dp"
+                android:background="@drawable/givebackbackground"
+                android:layout_marginTop="20dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Our mission is to restore areas that have\n been devastated by mining and assist small\n-scale miners in receiving just compensation\n for their labor."
+                    android:textAlignment="center"
+                    android:textSize="12dp"
+                    android:textColor="@color/white"
+                    android:layout_gravity="center"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="40dp"
+                android:paddingVertical="50dp"
+                android:layout_marginEnd="40dp"
+                android:background="@drawable/givebackbackground"
+                android:layout_marginTop="20dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textAlignment="center"
+                    android:text="We support issues that have an impact by lending\n our voice to them. We're happy to contribute to\n making the world more just and equal, whether it's\n through reproductive justice or humanitarian aid."
+                    android:textSize="12dp"
+                    android:textColor="@color/white"
+                    android:layout_gravity="center"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="40dp"
+                android:paddingVertical="50dp"
+                android:layout_marginEnd="40dp"
+                android:layout_marginBottom="40dp"
+                android:background="@drawable/givebackbackground"
+                android:layout_marginTop="20dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textAlignment="center"
+                    android:text="Our search for methods to safeguard the\n environment never ends. Global and local initiatives\n include things like sustainable practices in our\n showrooms and mercury-free mining, clean energy,\n reforestation, and recycled precious metals."
+                    android:textSize="12dp"
+                    android:textColor="@color/white"
+                    android:layout_gravity="center"/>
+
+            </LinearLayout>
+        </LinearLayout>
+
+    </androidx.core.widget.NestedScrollView>
+</RelativeLayout>

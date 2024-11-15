@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/settingtextview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/spendring"
+        android:padding="20dp"
+        android:gravity="center_vertical"
+        android:textSize="18dp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:layout_marginTop="20dp"
+        android:text="How much should an \nengagement ring cost?" />
+
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/settingtextview"
+        android:scrollbars="none">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Engagement Ring Styles and Settings"
+                android:layout_marginTop="20dp"
+                android:fontFamily="@font/inria_sans"
+                android:layout_centerHorizontal="true"
+                android:layout_gravity="center_horizontal"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:textSize="16dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="When setting a budget for an engagement ring, it's essential to explore the diverse options available and prioritize what matters most to you and your partner. Take into account various factors such as maximizing value, different payment methods, and personal preferences to balance meaningfulness with aesthetics."
+                android:textAlignment="center"
+                android:textSize="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="20dp"/>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:src="@drawable/averageengagement"
+                android:layout_gravity="center" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:text="Average engagement rings cost"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:fontFamily="@font/inria_sans"
+                android:textSize="20dp"
+                android:layout_marginTop="20dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:textSize="10dp"
+                android:layout_gravity="center_horizontal"
+                android:text="The traditional guideline of spending three months' salary on an engagement ring is no longer a strict standard. When it comes to budgeting, many couples take a more holistic approach, including their income and interests. While engagement ring trends impact the average engagement ring price throughout time, the average carat weight for engagement rings is approximately 1.5 carats."
+                android:layout_marginLeft="10dp"
+                android:fontFamily="@font/inria_sans"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="10dp"
+                android:textAlignment="center"/>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:src="@drawable/weddingringcost"
+                android:layout_gravity="center" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:text="What price should a wedding ring cost?"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:fontFamily="@font/inria_sans"
+                android:textSize="20dp"
+                android:layout_marginTop="20dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:textSize="10dp"
+                android:text="It is beneficial to begin with a budget range according to your financial condition, since this will give you a rough idea of your alternatives.\n\n Next, confirm your partner’s preferences and expectations for the ring, considering their desires regardless of cost—whether through direct conversations, browsing together, or seeking input from family and friends. The ring's symbolism is particularly important; for instance, your partner might choose to repurpose a family heirloom diamond or opt for a non-traditional gemstone.\n\n Another option is to buy a starter ring with a diamond alternative, which can be upgraded later as you and your partner save for a diamond or a custom-designed ring."
+                android:layout_gravity="center_horizontal"
+                android:layout_marginLeft="10dp"
+                android:fontFamily="@font/inria_sans"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="10dp"
+                android:textAlignment="center"/>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:src="@drawable/flexiblepayment"
+                android:layout_gravity="center" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:text="Flexible payment options"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:fontFamily="@font/inria_sans"
+                android:textSize="20dp"
+                android:layout_marginTop="20dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:textSize="10dp"
+                android:text="Many brands now provide alternate financing options. We offer a variety of financing options for your order, including layaway and flexible payment plans. Financing options, which are contingent on credit approval, enable you to make monthly payments on your purchase after an initial deposit. You may find more information on our finance page."
+                android:layout_gravity="center_horizontal"
+                android:layout_marginLeft="10dp"
+                android:fontFamily="@font/inria_sans"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="40dp"
+                android:textAlignment="center"/>
+        </LinearLayout>
+
+    </androidx.core.widget.NestedScrollView>
+
+</RelativeLayout>

@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/simpleelegant"
+        android:layout_width="match_parent"
+        android:src="@drawable/simpleelegant"
+        android:layout_marginTop="20dp"
+        android:layout_height="wrap_content"/>
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/simpleelegant"
+        android:scrollbars="none">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:text="Free Ring Sizer Request Form"
+                android:textStyle="bold"
+                android:fontFamily="@font/inria_sans"
+                android:textColor="@color/black"
+                android:textSize="16dp"
+                android:layout_marginTop="20dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:textSize="10dp"
+                android:text="Pick the size that offers the best comfort for you.  Simply wrap our sizer around the finger you want to measure and adjust it to the size that feels perfect. The ideal size will be snug enough not to slip off, but also loose enough to slide over the knuckle without any difficulty."
+                android:fontFamily="@font/inria_sans"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="10dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:text="Ring Size Chart"
+                android:textStyle="bold"
+                android:fontFamily="@font/inria_sans"
+                android:textColor="@color/black"
+                android:textSize="16dp"
+                android:layout_marginTop="20dp"/>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:src="@drawable/ringchart" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:text="Method 1: Create Your Own Ring Sizer"
+                android:textStyle="bold"
+                android:fontFamily="@font/inria_sans"
+                android:textColor="@color/black"
+                android:textSize="16dp"
+                android:layout_marginTop="20dp"/>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:src="@drawable/ringsizer" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:textSize="10dp"
+                android:text="What You'll Need:Printer &amp; Paper String, yarn, floss, or a thin piece of paper. Pen or Marker Ruler Steps: 1. Cut a string, yarn, floss, or thin strip of paper at least three inches long. 2. Loop one end of the thread around the base of the intended finger. 3. Using a pen or marker, indicate where the end of the string overlaps the remainder. 4. Lay the string flat and use a ruler to measure the distance between the end and your mark in millimeters. 5. Use the Ring Size Conversion Chart to convert the millimeter length to the appropriate ring size."
+                android:fontFamily="@font/inria_sans"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="10dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:text="Method 2: Print a Ring Sizer"
+                android:textStyle="bold"
+                android:fontFamily="@font/inria_sans"
+                android:textColor="@color/black"
+                android:textSize="16dp"
+                android:layout_marginTop="20dp"/>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:src="@drawable/printringsizer" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:textSize="10dp"
+                android:text="What you will require:\nPaper and printer\nCutlery\nActions:\n1. Get the Printable Conversion Chart and Ring Sizer. In your print options, set page scaling to 100 and utilize normal 8.5 x 11-inch paper.\n2. As directed, cut out the slot and the ring sizer.\n3. Insert the pointed end of the paper ring sizer through the slit you made in the sizer and wrap it snugly around the base of the desired finger so that the numbers are visible.\n4. Your ring size is shown by the number that coincides with the slit. If your sizer shows that you are in between whole and half sizes, keep in mind that quarter sizes are also available."
+                android:fontFamily="@font/inria_sans"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="10dp"
+                tools:ignore="ExtraText" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:text="Ring Size Tips"
+                android:textStyle="bold"
+                android:fontFamily="@font/inria_sans"
+                android:textColor="@color/black"
+                android:textSize="16dp"
+                android:layout_marginTop="20dp"/>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:src="@drawable/ringsizetips" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:textSize="10dp"
+                android:text="1. To measure your finger, gently wrap the measuring tape around the base of your finger. Ensure it’s snug but not too tight, allowing for a comfortable fit without squeezing. If you’re using a piece of string or a strip of paper instead, mark the point where the end meets the rest of the material. Your ring needs to fit over your knuckle, which is often the widest part of your finger. Therefore, to ensure a comfortable fit, measure both the base of your finger and around your knuckle. If your knuckle is significantly larger than the base of your finger, consider using the average of these two measurements. This way, your ring will fit comfortably over the knuckle but not be too loose at the base.
+\n2. Next, record the measurement. If you are using a measuring tape, directly read the measurement from the tape at the point where it overlaps. If you are using a string or paper, lay the marked string or paper flat on a surface and measure its length with a ruler. Ensure the ruler is placed straight and the string or paper is not stretched, as this could lead to inaccurate measurements.
+\n3. Then, use a ring size chart to convert your measurement to the corresponding ring size. Ring size charts are easily available online and typically include sizes for different regions, such as the US, UK, and Europe. Be sure to select the correct chart for your region to avoid any discrepancies. The chart will match your measurement to a specific ring size, making it easy to find the right fit.
+\n4. It's important to consider the dominant hand factor when measuring your ring size. The same finger on your left and right hands may differ slightly in size. Typically, the dominant hand—the one you use more frequently—might be slightly larger due to increased muscle development and usage. Therefore, measure the specific finger on the hand you plan to wear the ring. This ensures a more accurate fit, as even minor differences can affect the comfort and security of the ring."
+                android:fontFamily="@font/inria_sans"
+                android:layout_marginLeft="10dp"
+                android:layout_marginBottom="40dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="10dp"/>
+
+        </LinearLayout>
+
+    </androidx.core.widget.NestedScrollView>
+
+</RelativeLayout>
