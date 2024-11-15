@@ -4,6 +4,7 @@ import android.annotation.SuppressLint;
 import android.content.Intent;
 import android.os.Bundle;
 import android.os.Handler;
+import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -72,7 +73,10 @@ public class HomeFragment extends Fragment {
         //============================================ Jewellery Types Recycle view ===================================
         setJewelleryRecycleView();
         //============================================ Jewellery Types Shape Recycle view ===================================
-        setJeweleryShape();
+
+            setJeweleryShape();
+
+
 
 //        /=========  set gift card ======================
         // Find your ImageView in the layout
@@ -273,6 +277,9 @@ public class HomeFragment extends Fragment {
 
     @SuppressLint("NotifyDataSetChanged")
     public void setJeweleryShape() {
+
+        jeweleryTypeShapeModelArrayList.clear();
+        Log.e("homeSize", "setJeweleryShape: "+jeweleryTypeShapeModelArrayList.size() );
         jeweleryTypeShapeModelArrayList.add(new JewelleryTypeModel(R.drawable.round, "Round"));
         jeweleryTypeShapeModelArrayList.add(new JewelleryTypeModel(R.drawable.ovel, "Oval"));
         jeweleryTypeShapeModelArrayList.add(new JewelleryTypeModel(R.drawable.emrald, "Emerald"));
