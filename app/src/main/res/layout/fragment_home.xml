@@ -34,18 +34,18 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:orientation="vertical">
-            <AutoCompleteTextView
-                android:id="@+id/search_by"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:background="@drawable/search_bg"
-                android:hint="Search By"
-                android:textSize="15sp"
-                android:padding="8dp"
-                android:maxLines="1"
-                android:imeOptions="actionNext"
-                android:layout_marginHorizontal="30dp"
-                android:layout_marginTop="13dp" />
+<!--            <AutoCompleteTextView-->
+<!--                android:id="@+id/search_by"-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:background="@drawable/search_bg"-->
+<!--                android:hint="Search By"-->
+<!--                android:textSize="15sp"-->
+<!--                android:padding="8dp"-->
+<!--                android:maxLines="1"-->
+<!--                android:imeOptions="actionNext"-->
+<!--                android:layout_marginHorizontal="30dp"-->
+<!--                android:layout_marginTop="13dp" />-->
             <androidx.recyclerview.widget.RecyclerView
                 android:id="@+id/jewelleryTypeRV"
                 android:layout_width="match_parent"
