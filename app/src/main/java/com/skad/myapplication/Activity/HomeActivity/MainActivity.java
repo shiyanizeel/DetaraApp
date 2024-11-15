@@ -50,7 +50,7 @@ public class MainActivity extends AppCompatActivity {
 
 //================================== set favourit Btn =============
         // Initialize SharedPreferencesHelper to get the favorites list
-        sharedPreferencesHelper = SharedPreferencesHelper.getInstance(this, "myFavs");
+        sharedPreferencesHelper = SharedPreferencesHelper.getInstance(this, "myFav");
         favCountBadge = findViewById(R.id.favCountBadge);
         // Get the saved favorite items and update the UI accordingly
         updateFavoriteButton();

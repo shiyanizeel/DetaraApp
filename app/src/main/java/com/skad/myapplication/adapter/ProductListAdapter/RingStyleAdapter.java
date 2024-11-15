@@ -37,7 +37,7 @@ public class RingStyleAdapter extends RecyclerView.Adapter<RingStyleAdapter.View
         this.context = context;
         this.productList = productList;
         this.clickInterFace = clickInterFace;
-        this.sharedPreferencesHelper  =  SharedPreferencesHelper.getInstance(context,"myFavs");
+        this.sharedPreferencesHelper  =  SharedPreferencesHelper.getInstance(context,"myFav");
         this.forFav = forFav;
     }
 

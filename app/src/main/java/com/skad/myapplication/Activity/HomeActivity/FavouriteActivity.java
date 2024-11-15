@@ -29,7 +29,7 @@ ProgressBar progressBar;
         super.onCreate(savedInstanceState);
         EdgeToEdge.enable(this);
         setContentView(R.layout.activity_favourite);
-        sharedPreferencesHelper =  SharedPreferencesHelper.getInstance(this,"myFaves");
+        sharedPreferencesHelper =  SharedPreferencesHelper.getInstance(this,"myFav");
 
         favoriteRingsRecyclerView = findViewById(R.id.favoriteRingsRecyclerView);
 

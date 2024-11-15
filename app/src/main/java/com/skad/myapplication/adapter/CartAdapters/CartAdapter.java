@@ -71,20 +71,20 @@ Context context;
         holder.metal.setVisibility(View.INVISIBLE);
         holder.weight.setVisibility(View.INVISIBLE);
         holder.size.setVisibility(View.INVISIBLE);
-        if (!selectedColor.isEmpty()) {
+        if (selectedColor != null) {
             holder.color.setVisibility(View.VISIBLE);
             holder.color.setText(selectedColor);
-        } if(!selectedCaret.isEmpty()) {
+        } if(selectedCaret != null) {
             Log.e("Ceret", "onBindViewHolder: "+selectedCaret );
             holder.caret.setVisibility(View.VISIBLE);
             holder.caret.setText(selectedCaret);
-        }  if(!selectedSize.isEmpty()) {
+        }  if(selectedSize != null) {
             holder.size.setVisibility(View.VISIBLE);
             holder.size.setText(selectedSize);
-        }  if(!selectedMetal.isEmpty()) {
+        }  if(selectedMetal != null) {
             holder.metal.setVisibility(View.VISIBLE);
             holder.metal.setText(selectedMetal);
-        }  if(!selectedWeight.isEmpty()) {
+        }  if(selectedWeight != null) {
             holder.weight.setVisibility(View.VISIBLE);
             holder.weight.setText(selectedWeight);
         }

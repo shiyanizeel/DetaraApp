@@ -426,7 +426,7 @@ public class RingItemActivity extends AppCompatActivity {
         getCollectionInfo(RingItemActivity.this, collectionId, new CollectionCallback() {
 
             public void onSuccess(ProductModel collectionData) {
-                List<Product> allData = SharedPreferencesHelper.getInstance(getApplicationContext(),"myFavs").markFavorites(collectionData.getProducts());
+                List<Product> allData = SharedPreferencesHelper.getInstance(getApplicationContext(),"myFav").markFavorites(collectionData.getProducts());
 
                 productArrayList.addAll(allData);
                 progressBar.setVisibility(View.INVISIBLE);

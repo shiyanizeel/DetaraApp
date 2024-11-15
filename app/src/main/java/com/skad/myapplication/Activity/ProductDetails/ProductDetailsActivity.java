@@ -135,7 +135,8 @@ public class ProductDetailsActivity extends AppCompatActivity {
 
             Intent intent1 = new Intent(ProductDetailsActivity.this, CartActivity.class);
             intent1.putExtra("product", selectedProductDetails);
-            SharedPreferencesHelper.getInstance(getApplicationContext(),"cart").addUser(productDetails);
+            SharedPreferencesHelper.getInstance(getApplicationContext(),"myCart").addUser(productDetails);
+            SharedPreferencesHelper.getInstance(getApplicationContext(),"myFav").removeProduct(productDetails);
             System.out.println("product"+selectedProductDetails.getSize());
             startActivity(intent1);
         });

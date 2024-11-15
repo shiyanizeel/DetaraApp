@@ -18,7 +18,7 @@ import java.util.Set;
 
 public class SharedPreferencesHelper {
 
-    private static final String KEY_USERS = "users";
+    private static  String KEY_USERS ="";
 
     private static volatile SharedPreferencesHelper instance; // Singleton instance
     private final SharedPreferences sharedPreferences;
@@ -32,6 +32,7 @@ public class SharedPreferencesHelper {
 
     // Public method to provide access to the singleton instance
     public static SharedPreferencesHelper getInstance(Context context,String sharedName) {
+        KEY_USERS = sharedName;
         if (instance == null) {
             synchronized (SharedPreferencesHelper.class) {
                 if (instance == null) {
