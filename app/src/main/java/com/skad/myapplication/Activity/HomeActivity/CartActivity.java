@@ -74,7 +74,7 @@ public class CartActivity extends AppCompatActivity  {
 
 
 
-        textviewsubitem = findViewById(R.id.textviewsubitem);
+        textviewsubitem = findViewById(R.id.textviewsubitem);  
 // Get the product count from the Intent
         int productCount = getIntent().getIntExtra("product_count", 0);  // Default value is 0
 
