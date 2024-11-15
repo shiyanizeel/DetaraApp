@@ -1,6 +1,7 @@
 package com.skad.myapplication.Activity.HomeActivity;
 
 import android.annotation.SuppressLint;
+import android.content.Intent;
 import android.os.Bundle;
 import android.util.Log;
 import android.widget.TextView;
@@ -32,6 +33,19 @@ public class CartActivity extends AppCompatActivity  {
         super.onCreate(savedInstanceState);
         EdgeToEdge.enable(this);
         setContentView(R.layout.activity_cart);
+
+
+
+
+
+
+
+
+
+
+
+
+
         // Initialize Views
         cartRecyclerView = findViewById(R.id.cartRecyclerview);
 

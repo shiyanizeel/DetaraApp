@@ -17,6 +17,7 @@ import androidx.credentials.playservices.HiddenActivity;
 import androidx.recyclerview.widget.RecyclerView;
 
 import com.bumptech.glide.Glide;
+
 import com.skad.myapplication.Activity.HomeActivity.CartActivity;
 import com.skad.myapplication.Models.ApiModel.Product;
 import com.skad.myapplication.Models.ApiModel.ProductDetailsModel;
@@ -66,33 +67,42 @@ Context context;
         String selectedSize = product.getSelectedSize();
         String selectedMetal = product.getSelectedMetal();
         String selectedWeight = product.getSelectedWeight();
+
+// Initialize all views as INVISIBLE by default
         holder.color.setVisibility(View.INVISIBLE);
         holder.caret.setVisibility(View.INVISIBLE);
         holder.metal.setVisibility(View.INVISIBLE);
         holder.weight.setVisibility(View.INVISIBLE);
         holder.size.setVisibility(View.INVISIBLE);
+
+// Set visibility and text for each attribute if it exists
         if (selectedColor != null) {
             holder.color.setVisibility(View.VISIBLE);
-            holder.color.setText(selectedColor);
-        } if(selectedCaret != null) {
-            Log.e("Ceret", "onBindViewHolder: "+selectedCaret );
+            holder.color.setText("Color: " + selectedColor);
+        }
+        if (selectedCaret != null) {
             holder.caret.setVisibility(View.VISIBLE);
             holder.caret.setText(selectedCaret);
-        }  if(selectedSize != null) {
+        }
+        if (selectedSize != null) {
             holder.size.setVisibility(View.VISIBLE);
             holder.size.setText(selectedSize);
-        }  if(selectedMetal != null) {
+        }
+        if (selectedMetal != null) {
             holder.metal.setVisibility(View.VISIBLE);
             holder.metal.setText(selectedMetal);
-        }  if(selectedWeight != null) {
+        }
+        if (selectedWeight != null) {
             holder.weight.setVisibility(View.VISIBLE);
             holder.weight.setText(selectedWeight);
         }
 
         holder.title.setText(product.getTitle());
-
-        holder.caret.setText(product.getSelectedCaret());
-        holder.color.setText(product.getSelectedColor());
+//        holder.caret.setText("caret: \n "+product.getSelectedCaret());
+//        holder.color.setText("Color:" + product.getSelectedColor());
+//        holder.size.setText("Size: \n "+selectedSize);
+//        holder.metal.setText("Metal: \n "+selectedMetal);
+//        holder.weight.setText("Weight: \n "+selectedWeight);
         holder.price.setText("₹" + product.getPrice());
 
 

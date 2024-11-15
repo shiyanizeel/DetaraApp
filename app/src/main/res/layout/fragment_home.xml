@@ -65,149 +65,149 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="20dp"/>
 
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_gravity="center_horizontal"
-                android:layout_marginTop="20dp"
-                android:fontFamily="@font/inria_sans"
-                android:text="Browse Latest Jewellery Collections"
+<!--            <TextView-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_gravity="center_horizontal"-->
+<!--                android:layout_marginTop="20dp"-->
+<!--                android:fontFamily="@font/inria_sans"-->
+<!--                android:text="Browse Latest Jewellery Collections"-->
+<!--                android:textColor="@color/black"-->
+<!--                android:textSize="20sp"-->
+<!--                android:textStyle="bold" />-->
 
-                android:textColor="@color/black"
-                android:textSize="20sp"
-                android:textStyle="bold" />
+<!--            -->
+<!--            <androidx.core.widget.NestedScrollView-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:scrollbars="none"-->
+<!--                android:layout_margin="30dp">-->
+<!--                <HorizontalScrollView-->
+<!--                    android:layout_width="match_parent"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:scrollbars="none">-->
+<!--                    <LinearLayout-->
+<!--                        android:id="@+id/leaniarlayout"-->
+<!--                        android:layout_width="match_parent"-->
+<!--                        android:layout_height="wrap_content"-->
+<!--                        android:orientation="horizontal">-->
+<!--                        <ImageView-->
+<!--                            android:id="@+id/luxeryBaracelates"-->
+<!--                            android:layout_width="143dp"-->
+<!--                            android:layout_height="143dp"-->
+<!--                            android:background="@drawable/luxurybraclets"/>-->
+<!--                        <ImageView-->
+<!--                            android:id="@+id/collectionWeddingRing"-->
+<!--                            android:layout_width="143dp"-->
+<!--                            android:layout_height="143dp"-->
+<!--                            android:layout_marginHorizontal="20dp"-->
+<!--                            android:background="@drawable/collectionweddingring"/>-->
+<!--                        <ImageView-->
+<!--                            android:id="@+id/everydayElegence"-->
+<!--                            android:layout_width="143dp"-->
+<!--                            android:layout_height="143dp"-->
+<!--                            android:background="@drawable/everydayeligence"/>-->
+<!--                        <ImageView-->
+<!--                            android:id="@+id/yourSolitaires"-->
+<!--                            android:layout_width="143dp"-->
+<!--                            android:layout_height="143dp"-->
+<!--                            android:layout_marginHorizontal="20dp"-->
+<!--                            android:background="@drawable/yoursolitaires"/>-->
+<!--                    </LinearLayout>-->
+<!--                </HorizontalScrollView>-->
 
-            <androidx.core.widget.NestedScrollView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:scrollbars="none"
-                android:layout_margin="30dp">
-                <HorizontalScrollView
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:scrollbars="none">
-                    <LinearLayout
-                        android:id="@+id/leaniarlayout"
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:orientation="horizontal">
-                        <ImageView
-                            android:id="@+id/luxeryBaracelates"
-                            android:layout_width="143dp"
-                            android:layout_height="143dp"
-                            android:background="@drawable/luxurybraclets"/>
-                        <ImageView
-                            android:id="@+id/collectionWeddingRing"
-                            android:layout_width="143dp"
-                            android:layout_height="143dp"
-                            android:layout_marginHorizontal="20dp"
-                            android:background="@drawable/collectionweddingring"/>
-                        <ImageView
-                            android:id="@+id/everydayElegence"
-                            android:layout_width="143dp"
-                            android:layout_height="143dp"
-                            android:background="@drawable/everydayeligence"/>
-                        <ImageView
-                            android:id="@+id/yourSolitaires"
-                            android:layout_width="143dp"
-                            android:layout_height="143dp"
-                            android:layout_marginHorizontal="20dp"
-                            android:background="@drawable/yoursolitaires"/>
-                    </LinearLayout>
-                </HorizontalScrollView>
-
-            </androidx.core.widget.NestedScrollView>
+<!--            </androidx.core.widget.NestedScrollView>-->
 
             <ImageView
                 android:id="@+id/giftCardHome"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:background="@drawable/giftcard"/>
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="Alchemy of Materials"
-                android:layout_gravity="center_horizontal"
-                android:textColor="@color/black"
-                android:textSize="20sp"
-                android:textStyle="bold"
-                android:fontFamily="@font/inria_sans"
-                android:layout_marginTop="30dp"/>
+<!--            <TextView-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:text="Alchemy of Materials"-->
+<!--                android:layout_gravity="center_horizontal"-->
+<!--                android:textColor="@color/black"-->
+<!--                android:textSize="20sp"-->
+<!--                android:textStyle="bold"-->
+<!--                android:fontFamily="@font/inria_sans"-->
+<!--                android:layout_marginTop="30dp"/>-->
 
-            <LinearLayout
-                android:id="@+id/materialsDiamondContain"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:orientation="horizontal"
-                android:weightSum="3"
-                android:layout_marginHorizontal="30dp"
-                android:layout_marginVertical="30dp">
-<LinearLayout
-    android:layout_width="0dp"
-    android:layout_height="wrap_content"
-    android:gravity="center_horizontal"
-    android:layout_weight="1"
-    android:orientation="vertical">
-    <ImageView
-        android:id="@+id/naturalDiamond"
-        android:layout_width="100dp"
-        android:layout_height="100dp"
-        android:background="@drawable/naturaldiamond"/>
-    <TextView
-        android:id="@+id/naturalDiamondName"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Natural \n Diamond"
-        android:layout_gravity="center_horizontal"
-        android:textSize="15dp"
-        android:textColor="@color/Appcolor"/>
-</LinearLayout>
-                <LinearLayout
-    android:layout_width="0dp"
-    android:layout_height="wrap_content"
-                    android:layout_weight="1"
-                    android:gravity="center_horizontal"
-    android:orientation="vertical"
-                    android:layout_marginHorizontal="20dp">
-                    <ImageView
-                        android:id="@+id/gemstoneDiamond"
-                        android:layout_width="100dp"
-                        android:layout_height="100dp"
-                        android:background="@drawable/gemstonediamond"/>
+<!--            <LinearLayout-->
+<!--                android:id="@+id/materialsDiamondContain"-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:orientation="horizontal"-->
+<!--                android:weightSum="3"-->
+<!--                android:layout_marginHorizontal="30dp"-->
+<!--                android:layout_marginVertical="30dp">-->
+<!--<LinearLayout-->
+<!--    android:layout_width="0dp"-->
+<!--    android:layout_height="wrap_content"-->
+<!--    android:gravity="center_horizontal"-->
+<!--    android:layout_weight="1"-->
+<!--    android:orientation="vertical">-->
+<!--    <ImageView-->
+<!--        android:id="@+id/naturalDiamond"-->
+<!--        android:layout_width="100dp"-->
+<!--        android:layout_height="100dp"-->
+<!--        android:background="@drawable/naturaldiamond"/>-->
+<!--    <TextView-->
+<!--        android:id="@+id/naturalDiamondName"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text="Natural \n Diamond"-->
+<!--        android:layout_gravity="center_horizontal"-->
+<!--        android:textSize="15dp"-->
+<!--        android:textColor="@color/Appcolor"/>-->
+<!--</LinearLayout>-->
+<!--                <LinearLayout-->
+<!--    android:layout_width="0dp"-->
+<!--    android:layout_height="wrap_content"-->
+<!--                    android:layout_weight="1"-->
+<!--                    android:gravity="center_horizontal"-->
+<!--    android:orientation="vertical"-->
+<!--                    android:layout_marginHorizontal="20dp">-->
+<!--                    <ImageView-->
+<!--                        android:id="@+id/gemstoneDiamond"-->
+<!--                        android:layout_width="100dp"-->
+<!--                        android:layout_height="100dp"-->
+<!--                        android:background="@drawable/gemstonediamond"/>-->
 
-                    <TextView
-        android:id="@+id/gemstoneDiamondName"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-                        android:layout_gravity="center_horizontal"
-        android:text="Gemstone \n Diamond"
-        android:textSize="15dp"
-        android:textColor="@color/Appcolor"/>
-</LinearLayout>
-                <LinearLayout
-    android:layout_width="0dp"
-    android:layout_height="wrap_content"
-                    android:layout_weight="1"
-                    android:gravity="center_horizontal"
-    android:orientation="vertical">
-                    <ImageView
-                        android:id="@+id/labDiamond"
-                        android:layout_width="100dp"
-                        android:layout_height="100dp"
-                        android:background="@drawable/labdiamond"/>
-    <TextView
-        android:id="@+id/lablDiamondName"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Lab \n Diamond"
-        android:layout_gravity="center_horizontal"
-        android:textSize="15dp"
-        android:textColor="@color/Appcolor"/>
-</LinearLayout>
+<!--                    <TextView-->
+<!--        android:id="@+id/gemstoneDiamondName"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--                        android:layout_gravity="center_horizontal"-->
+<!--        android:text="Gemstone \n Diamond"-->
+<!--        android:textSize="15dp"-->
+<!--        android:textColor="@color/Appcolor"/>-->
+<!--</LinearLayout>-->
+<!--                <LinearLayout-->
+<!--    android:layout_width="0dp"-->
+<!--    android:layout_height="wrap_content"-->
+<!--                    android:layout_weight="1"-->
+<!--                    android:gravity="center_horizontal"-->
+<!--    android:orientation="vertical">-->
+<!--                    <ImageView-->
+<!--                        android:id="@+id/labDiamond"-->
+<!--                        android:layout_width="100dp"-->
+<!--                        android:layout_height="100dp"-->
+<!--                        android:background="@drawable/labdiamond"/>-->
+<!--    <TextView-->
+<!--        android:id="@+id/lablDiamondName"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text="Lab \n Diamond"-->
+<!--        android:layout_gravity="center_horizontal"-->
+<!--        android:textSize="15dp"-->
+<!--        android:textColor="@color/Appcolor"/>-->
+<!--</LinearLayout>-->
 
 
 
-            </LinearLayout>
+<!--            </LinearLayout>-->
             <RelativeLayout
                 android:layout_width="match_parent"
                 android:layout_height="319dp"

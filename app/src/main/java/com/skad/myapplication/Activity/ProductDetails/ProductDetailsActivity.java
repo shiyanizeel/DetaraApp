@@ -133,12 +133,9 @@ public class ProductDetailsActivity extends AppCompatActivity {
                     selectedMetal
             );
 
-            Intent intent1 = new Intent(ProductDetailsActivity.this, CartActivity.class);
-            intent1.putExtra("product", selectedProductDetails);
-            SharedPreferencesHelper.getInstance(getApplicationContext(),"myCart").addUser(productDetails);
-            SharedPreferencesHelper.getInstance(getApplicationContext(),"myFav").removeProduct(productDetails);
-            System.out.println("product"+selectedProductDetails.getSize());
-            startActivity(intent1);
+
+
+
         });
     }
 
@@ -175,9 +172,9 @@ public class ProductDetailsActivity extends AppCompatActivity {
 
         popupMenu.setOnMenuItemClickListener(item -> {
             switch (item.getItemId()) {
-                case 1: colorTV.setText("Color:Rose Gold"); break;
-                case 2: colorTV.setText("Color:Yellow Gold"); break;
-                case 3: colorTV.setText("Color:White Gold"); break;
+                case 1: colorTV.setText("Rose Gold"); break;
+                case 2: colorTV.setText("Yellow Gold"); break;
+                case 3: colorTV.setText("White Gold"); break;
                 default: return false;
             }
             return true;
@@ -194,8 +191,8 @@ public class ProductDetailsActivity extends AppCompatActivity {
 
         popupMenu.setOnMenuItemClickListener(item -> {
             switch (item.getItemId()) {
-                case 1: metalTV.setText("Metal:14K"); break;
-                case 2: metalTV.setText("Metal:18k"); break;
+                case 1: metalTV.setText("14K"); break;
+                case 2: metalTV.setText("18k"); break;
                 default: return false;
             }
             return true;
@@ -213,7 +210,7 @@ public class ProductDetailsActivity extends AppCompatActivity {
         }
 
         popupMenu.setOnMenuItemClickListener(item -> {
-            sizeTv.setText("Size:" + (0.5 * item.getItemId()));
+            sizeTv.setText((int) (0.5 * item.getItemId()));
             return true;
         });
         popupMenu.show();
@@ -229,7 +226,7 @@ public class ProductDetailsActivity extends AppCompatActivity {
         }
 
         popupMenu.setOnMenuItemClickListener(item -> {
-            caretTV.setText("Caret:" + (0.5 * item.getItemId()));
+            caretTV.setText((int)0.5 * item.getItemId());
             return true;
         });
         popupMenu.show();
